@@ -1,0 +1,347 @@
+2019-11-12 15:05:43.043 [main] ERROR org.springframework.boot.SpringApplication - Application run failed
+org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'shiroFilterFactoryBean' defined in class path resource [com/example/demo/shiro/ShiroConfig.class]: Unsatisfied dependency expressed through method 'getShiroFilterFactoryBean' parameter 0; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'defaultWebSecurityManager' defined in class path resource [com/example/demo/shiro/ShiroConfig.class]: Unsatisfied dependency expressed through method 'getDefaultWebSecurityManager' parameter 0; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'userRealm': Unsatisfied dependency expressed through field 'sysuserService'; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'sysuserServiceimpl': Unsatisfied dependency expressed through field 'sysUserMapper'; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'com.example.demo.mapper.SysUserMapper' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:787)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:528)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1338)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1177)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:557)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:517)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:323)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:321)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:207)
+	at org.springframework.context.support.PostProcessorRegistrationDelegate.registerBeanPostProcessors(PostProcessorRegistrationDelegate.java:240)
+	at org.springframework.context.support.AbstractApplicationContext.registerBeanPostProcessors(AbstractApplicationContext.java:722)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:535)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:141)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:747)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:397)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:315)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1226)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1215)
+	at com.example.demo.DemoApplication.main(DemoApplication.java:10)
+Caused by: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'defaultWebSecurityManager' defined in class path resource [com/example/demo/shiro/ShiroConfig.class]: Unsatisfied dependency expressed through method 'getDefaultWebSecurityManager' parameter 0; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'userRealm': Unsatisfied dependency expressed through field 'sysuserService'; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'sysuserServiceimpl': Unsatisfied dependency expressed through field 'sysUserMapper'; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'com.example.demo.mapper.SysUserMapper' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:787)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:528)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1338)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1177)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:557)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:517)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:323)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:321)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202)
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:276)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1287)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1207)
+	at org.springframework.beans.factory.support.ConstructorResolver.resolveAutowiredArgument(ConstructorResolver.java:874)
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:778)
+	... 19 common frames omitted
+Caused by: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'userRealm': Unsatisfied dependency expressed through field 'sysuserService'; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'sysuserServiceimpl': Unsatisfied dependency expressed through field 'sysUserMapper'; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'com.example.demo.mapper.SysUserMapper' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:639)
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:116)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessProperties(AutowiredAnnotationBeanPostProcessor.java:397)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1429)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:594)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:517)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:323)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:321)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202)
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:276)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1287)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1207)
+	at org.springframework.beans.factory.support.ConstructorResolver.resolveAutowiredArgument(ConstructorResolver.java:874)
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:778)
+	... 33 common frames omitted
+Caused by: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'sysuserServiceimpl': Unsatisfied dependency expressed through field 'sysUserMapper'; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'com.example.demo.mapper.SysUserMapper' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:639)
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:116)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessProperties(AutowiredAnnotationBeanPostProcessor.java:397)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1429)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:594)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:517)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:323)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:321)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202)
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:276)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1287)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1207)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:636)
+	... 47 common frames omitted
+Caused by: org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'com.example.demo.mapper.SysUserMapper' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.raiseNoMatchingBeanFound(DefaultListableBeanFactory.java:1695)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1253)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1207)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:636)
+	... 60 common frames omitted
+2019-11-12 15:44:39.110 [main] ERROR o.s.b.diagnostics.LoggingFailureAnalysisReporter - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Field tuserService in com.example.demo.controller.TuserController required a bean of type 'com.example.demo.service.TuserService' that could not be found.
+
+The injection point has the following annotations:
+	- @org.springframework.beans.factory.annotation.Autowired(required=true)
+
+
+Action:
+
+Consider defining a bean of type 'com.example.demo.service.TuserService' in your configuration.
+
+2019-11-12 15:45:09.298 [main] ERROR o.s.b.diagnostics.LoggingFailureAnalysisReporter - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Field tuserService in com.example.demo.controller.TuserController required a bean of type 'com.example.demo.service.TuserService' that could not be found.
+
+The injection point has the following annotations:
+	- @org.springframework.beans.factory.annotation.Autowired(required=true)
+
+
+Action:
+
+Consider defining a bean of type 'com.example.demo.service.TuserService' in your configuration.
+
+2019-11-12 15:45:50.400 [http-nio-8080-exec-3] ERROR com.example.demo.controller.TuserController - logback 成功了
+2019-11-12 15:45:56.329 [http-nio-8080-exec-5] ERROR com.example.demo.controller.TuserController - logback 成功了
+2019-11-12 15:45:56.461 [http-nio-8080-exec-7] ERROR com.example.demo.controller.TuserController - logback 成功了
+2019-11-12 15:55:17.031 [main] ERROR org.springframework.boot.SpringApplication - Application run failed
+org.springframework.boot.context.properties.bind.BindException: Failed to bind properties under 'logging.level' to java.util.Map<java.lang.String, org.springframework.boot.logging.LogLevel>
+	at org.springframework.boot.context.properties.bind.Binder.handleBindError(Binder.java:364)
+	at org.springframework.boot.context.properties.bind.Binder.bind(Binder.java:324)
+	at org.springframework.boot.context.properties.bind.Binder.bind(Binder.java:308)
+	at org.springframework.boot.context.properties.bind.Binder.bind(Binder.java:238)
+	at org.springframework.boot.context.properties.bind.Binder.bind(Binder.java:212)
+	at org.springframework.boot.context.logging.LoggingApplicationListener.setLogLevels(LoggingApplicationListener.java:398)
+	at org.springframework.boot.context.logging.LoggingApplicationListener.initializeFinalLoggingLevels(LoggingApplicationListener.java:338)
+	at org.springframework.boot.context.logging.LoggingApplicationListener.initialize(LoggingApplicationListener.java:289)
+	at org.springframework.boot.context.logging.LoggingApplicationListener.onApplicationEnvironmentPreparedEvent(LoggingApplicationListener.java:246)
+	at org.springframework.boot.context.logging.LoggingApplicationListener.onApplicationEvent(LoggingApplicationListener.java:223)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.doInvokeListener(SimpleApplicationEventMulticaster.java:172)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.invokeListener(SimpleApplicationEventMulticaster.java:165)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.multicastEvent(SimpleApplicationEventMulticaster.java:139)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.multicastEvent(SimpleApplicationEventMulticaster.java:127)
+	at org.springframework.boot.context.event.EventPublishingRunListener.environmentPrepared(EventPublishingRunListener.java:76)
+	at org.springframework.boot.SpringApplicationRunListeners.environmentPrepared(SpringApplicationRunListeners.java:53)
+	at org.springframework.boot.SpringApplication.prepareEnvironment(SpringApplication.java:345)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:308)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1226)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1215)
+	at com.example.demo.DemoApplication.main(DemoApplication.java:12)
+Caused by: org.springframework.core.convert.ConverterNotFoundException: No converter found capable of converting from type [java.lang.String] to type [java.util.Map<java.lang.String, org.springframework.boot.logging.LogLevel>]
+	at org.springframework.core.convert.support.GenericConversionService.handleConverterNotFound(GenericConversionService.java:321)
+	at org.springframework.core.convert.support.GenericConversionService.convert(GenericConversionService.java:194)
+	at org.springframework.boot.context.properties.bind.BindConverter$CompositeConversionService.convert(BindConverter.java:170)
+	at org.springframework.boot.context.properties.bind.BindConverter.convert(BindConverter.java:96)
+	at org.springframework.boot.context.properties.bind.BindConverter.convert(BindConverter.java:88)
+	at org.springframework.boot.context.properties.bind.MapBinder.bindAggregate(MapBinder.java:64)
+	at org.springframework.boot.context.properties.bind.AggregateBinder.bind(AggregateBinder.java:56)
+	at org.springframework.boot.context.properties.bind.Binder.lambda$bindAggregate$3(Binder.java:415)
+	at org.springframework.boot.context.properties.bind.Binder$Context.withIncreasedDepth(Binder.java:570)
+	at org.springframework.boot.context.properties.bind.Binder$Context.access$100(Binder.java:513)
+	at org.springframework.boot.context.properties.bind.Binder.bindAggregate(Binder.java:415)
+	at org.springframework.boot.context.properties.bind.Binder.bindObject(Binder.java:376)
+	at org.springframework.boot.context.properties.bind.Binder.bind(Binder.java:320)
+	... 19 common frames omitted
+2019-11-12 15:55:23.757 [main] ERROR org.springframework.boot.SpringApplication - Application run failed
+org.springframework.boot.context.properties.bind.BindException: Failed to bind properties under 'logging.level' to java.util.Map<java.lang.String, org.springframework.boot.logging.LogLevel>
+	at org.springframework.boot.context.properties.bind.Binder.handleBindError(Binder.java:364)
+	at org.springframework.boot.context.properties.bind.Binder.bind(Binder.java:324)
+	at org.springframework.boot.context.properties.bind.Binder.bind(Binder.java:308)
+	at org.springframework.boot.context.properties.bind.Binder.bind(Binder.java:238)
+	at org.springframework.boot.context.properties.bind.Binder.bind(Binder.java:212)
+	at org.springframework.boot.context.logging.LoggingApplicationListener.setLogLevels(LoggingApplicationListener.java:398)
+	at org.springframework.boot.context.logging.LoggingApplicationListener.initializeFinalLoggingLevels(LoggingApplicationListener.java:338)
+	at org.springframework.boot.context.logging.LoggingApplicationListener.initialize(LoggingApplicationListener.java:289)
+	at org.springframework.boot.context.logging.LoggingApplicationListener.onApplicationEnvironmentPreparedEvent(LoggingApplicationListener.java:246)
+	at org.springframework.boot.context.logging.LoggingApplicationListener.onApplicationEvent(LoggingApplicationListener.java:223)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.doInvokeListener(SimpleApplicationEventMulticaster.java:172)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.invokeListener(SimpleApplicationEventMulticaster.java:165)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.multicastEvent(SimpleApplicationEventMulticaster.java:139)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.multicastEvent(SimpleApplicationEventMulticaster.java:127)
+	at org.springframework.boot.context.event.EventPublishingRunListener.environmentPrepared(EventPublishingRunListener.java:76)
+	at org.springframework.boot.SpringApplicationRunListeners.environmentPrepared(SpringApplicationRunListeners.java:53)
+	at org.springframework.boot.SpringApplication.prepareEnvironment(SpringApplication.java:345)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:308)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1226)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1215)
+	at com.example.demo.DemoApplication.main(DemoApplication.java:12)
+Caused by: org.springframework.core.convert.ConverterNotFoundException: No converter found capable of converting from type [java.lang.String] to type [java.util.Map<java.lang.String, org.springframework.boot.logging.LogLevel>]
+	at org.springframework.core.convert.support.GenericConversionService.handleConverterNotFound(GenericConversionService.java:321)
+	at org.springframework.core.convert.support.GenericConversionService.convert(GenericConversionService.java:194)
+	at org.springframework.boot.context.properties.bind.BindConverter$CompositeConversionService.convert(BindConverter.java:170)
+	at org.springframework.boot.context.properties.bind.BindConverter.convert(BindConverter.java:96)
+	at org.springframework.boot.context.properties.bind.BindConverter.convert(BindConverter.java:88)
+	at org.springframework.boot.context.properties.bind.MapBinder.bindAggregate(MapBinder.java:64)
+	at org.springframework.boot.context.properties.bind.AggregateBinder.bind(AggregateBinder.java:56)
+	at org.springframework.boot.context.properties.bind.Binder.lambda$bindAggregate$3(Binder.java:415)
+	at org.springframework.boot.context.properties.bind.Binder$Context.withIncreasedDepth(Binder.java:570)
+	at org.springframework.boot.context.properties.bind.Binder$Context.access$100(Binder.java:513)
+	at org.springframework.boot.context.properties.bind.Binder.bindAggregate(Binder.java:415)
+	at org.springframework.boot.context.properties.bind.Binder.bindObject(Binder.java:376)
+	at org.springframework.boot.context.properties.bind.Binder.bind(Binder.java:320)
+	... 19 common frames omitted
+2019-11-12 15:57:47.100 [http-nio-8080-exec-5] ERROR com.example.demo.controller.TuserController - logback 成功了
+2019-11-12 16:01:57.514 [http-nio-8080-exec-4] ERROR com.example.demo.controller.TuserController - logback 成功了
+2019-11-12 16:02:00.010 [http-nio-8080-exec-6] ERROR org.thymeleaf.TemplateEngine - [THYMELEAF][http-nio-8080-exec-6] Exception processing template "add": Error resolving template [add], template might not exist or might not be accessible by any of the configured Template Resolvers
+org.thymeleaf.exceptions.TemplateInputException: Error resolving template [add], template might not exist or might not be accessible by any of the configured Template Resolvers
+	at org.thymeleaf.engine.TemplateManager.resolveTemplate(TemplateManager.java:869)
+	at org.thymeleaf.engine.TemplateManager.parseAndProcess(TemplateManager.java:607)
+	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1098)
+	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1072)
+	at org.thymeleaf.spring5.view.ThymeleafView.renderFragment(ThymeleafView.java:362)
+	at org.thymeleaf.spring5.view.ThymeleafView.render(ThymeleafView.java:189)
+	at org.springframework.web.servlet.DispatcherServlet.render(DispatcherServlet.java:1373)
+	at org.springframework.web.servlet.DispatcherServlet.processDispatchResult(DispatcherServlet.java:1118)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1057)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:943)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:898)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:634)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.shiro.web.servlet.AbstractShiroFilter.executeChain(AbstractShiroFilter.java:449)
+	at org.apache.shiro.web.servlet.AbstractShiroFilter$1.call(AbstractShiroFilter.java:365)
+	at org.apache.shiro.subject.support.SubjectCallable.doCall(SubjectCallable.java:90)
+	at org.apache.shiro.subject.support.SubjectCallable.call(SubjectCallable.java:83)
+	at org.apache.shiro.subject.support.DelegatingSubject.execute(DelegatingSubject.java:387)
+	at org.apache.shiro.web.servlet.AbstractShiroFilter.doFilterInternal(AbstractShiroFilter.java:362)
+	at org.apache.shiro.web.servlet.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:125)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:526)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:408)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:861)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1579)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+2019-11-12 16:02:00.011 [http-nio-8080-exec-6] ERROR o.a.c.c.C.[.[localhost].[/].[dispatcherServlet] - Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is org.thymeleaf.exceptions.TemplateInputException: Error resolving template [add], template might not exist or might not be accessible by any of the configured Template Resolvers] with root cause
+org.thymeleaf.exceptions.TemplateInputException: Error resolving template [add], template might not exist or might not be accessible by any of the configured Template Resolvers
+	at org.thymeleaf.engine.TemplateManager.resolveTemplate(TemplateManager.java:869)
+	at org.thymeleaf.engine.TemplateManager.parseAndProcess(TemplateManager.java:607)
+	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1098)
+	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1072)
+	at org.thymeleaf.spring5.view.ThymeleafView.renderFragment(ThymeleafView.java:362)
+	at org.thymeleaf.spring5.view.ThymeleafView.render(ThymeleafView.java:189)
+	at org.springframework.web.servlet.DispatcherServlet.render(DispatcherServlet.java:1373)
+	at org.springframework.web.servlet.DispatcherServlet.processDispatchResult(DispatcherServlet.java:1118)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1057)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:943)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:898)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:634)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.shiro.web.servlet.AbstractShiroFilter.executeChain(AbstractShiroFilter.java:449)
+	at org.apache.shiro.web.servlet.AbstractShiroFilter$1.call(AbstractShiroFilter.java:365)
+	at org.apache.shiro.subject.support.SubjectCallable.doCall(SubjectCallable.java:90)
+	at org.apache.shiro.subject.support.SubjectCallable.call(SubjectCallable.java:83)
+	at org.apache.shiro.subject.support.DelegatingSubject.execute(DelegatingSubject.java:387)
+	at org.apache.shiro.web.servlet.AbstractShiroFilter.doFilterInternal(AbstractShiroFilter.java:362)
+	at org.apache.shiro.web.servlet.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:125)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:526)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:408)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:861)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1579)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+2019-11-12 16:02:02.808 [http-nio-8080-exec-7] ERROR com.example.demo.controller.TuserController - logback-error 成功了
+2019-11-12 16:02:02.920 [http-nio-8080-exec-9] ERROR com.example.demo.controller.TuserController - logback 成功了
+2019-11-12 16:05:07.889 [http-nio-8080-exec-5] ERROR com.example.demo.controller.TuserController - logback 成功了
+2019-11-12 16:05:48.859 [http-nio-8080-exec-4] ERROR com.example.demo.controller.TuserController - logback 成功了
+2019-11-12 16:07:17.662 [http-nio-8080-exec-7] ERROR com.example.demo.controller.TuserController - logback 成功了
+2019-11-12 16:07:31.798 [http-nio-8080-exec-4] ERROR com.example.demo.controller.TuserController - logback 成功了
+2019-11-12 16:07:59.455 [http-nio-8080-exec-6] ERROR com.example.demo.controller.TuserController - logback-error 成功了
+2019-11-12 16:07:59.573 [http-nio-8080-exec-9] ERROR com.example.demo.controller.TuserController - logback 成功了
+2019-11-12 16:09:06.804 [http-nio-8080-exec-4] ERROR com.example.demo.controller.TuserController - logback 成功了
+2019-11-12 16:11:43.159 [http-nio-8080-exec-5] ERROR com.example.demo.controller.TuserController - logback 成功了
+2019-11-12 16:14:01.428 [http-nio-8080-exec-4] ERROR com.example.demo.controller.TuserController - logback 成功了
+2019-11-12 16:14:42.863 [http-nio-8080-exec-7] ERROR com.example.demo.controller.TuserController - logback 成功了
+2019-11-12 16:14:43.953 [http-nio-8080-exec-8] ERROR com.example.demo.controller.TuserController - logback-error 成功了
+2019-11-12 16:14:44.070 [http-nio-8080-exec-10] ERROR com.example.demo.controller.TuserController - logback 成功了
+2019-11-12 16:16:37.907 [http-nio-8080-exec-4] ERROR com.example.demo.controller.TuserController - logback 成功了
+2019-11-12 16:20:16.075 [http-nio-8080-exec-3] ERROR com.example.demo.controller.TuserController - logback 成功了
+2019-11-12 16:21:05.890 [http-nio-8080-exec-4] ERROR com.example.demo.controller.TuserController - logback 成功了
+2019-11-12 16:22:45.445 [http-nio-8080-exec-7] ERROR com.example.demo.controller.TuserController - logback 成功了
+2019-11-12 16:24:39.878 [http-nio-8080-exec-4] ERROR com.example.demo.controller.TuserController - logback 成功了
+2019-11-12 16:24:44.459 [http-nio-8080-exec-8] ERROR com.example.demo.controller.TuserController - logback 成功了
+2019-11-12 16:24:53.193 [http-nio-8080-exec-1] ERROR com.example.demo.controller.TuserController - logback 成功了
+2019-11-12 16:38:40.837 [http-nio-8080-exec-4] ERROR com.example.demo.controller.TuserController - logback 成功了
+2019-11-12 16:38:43.424 [http-nio-8080-exec-5] ERROR com.example.demo.controller.TuserController - logback-error 成功了
+2019-11-12 16:38:43.596 [http-nio-8080-exec-6] ERROR com.example.demo.controller.TuserController - logback 成功了
+2019-11-12 16:38:57.226 [http-nio-8080-exec-8] ERROR com.example.demo.controller.TuserController - logback-error 成功了
+2019-11-12 16:38:57.282 [http-nio-8080-exec-9] ERROR com.example.demo.controller.TuserController - logback 成功了
+2019-11-12 16:39:01.669 [http-nio-8080-exec-1] ERROR com.example.demo.controller.TuserController - logback 成功了
+2019-11-12 16:39:10.453 [http-nio-8080-exec-6] ERROR com.example.demo.controller.TuserController - logback 成功了
+2019-11-12 16:39:16.362 [http-nio-8080-exec-9] ERROR com.example.demo.controller.TuserController - logback 成功了
+2019-11-12 16:43:22.197 [http-nio-8080-exec-4] ERROR com.example.demo.controller.TuserController - logback 成功了
+2019-11-12 16:45:51.355 [http-nio-8080-exec-5] ERROR com.example.demo.controller.TuserController - logback 成功了
+2019-11-12 16:46:45.289 [http-nio-8080-exec-4] ERROR com.example.demo.controller.TuserController - logback 成功了
+2019-11-12 16:46:46.604 [http-nio-8080-exec-6] ERROR com.example.demo.controller.TuserController - logback 成功了
+2019-11-12 16:46:59.489 [http-nio-8080-exec-10] ERROR com.example.demo.controller.TuserController - logback 成功了

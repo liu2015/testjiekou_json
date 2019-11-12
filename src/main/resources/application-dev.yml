@@ -1,0 +1,40 @@
+server:
+  port: 8080
+spring:
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    username: liu
+    password: Liu1988226
+    url: jdbc:mysql://cdb-kx7bfwy2.bj.tencentcdb.com:10187/springJpa?useUnicode=true&characterEncoding=utf-8&useSSL=true&serverTimezone=UTC
+#logging:
+#  config: classpath:logback-spring.xml
+#  level:
+#    net:
+#      lemonsoft:
+#        coder_city: DEBUG
+#
+# 这里是是用了lgging的功能记录了sql等操作步骤日志
+# 这里的格式要注意,虚线对齐,首行跟上一行要空2个字符 这个跟mybatis的sql日志输出可能有冲突
+
+logging:
+#  level:
+#    com:
+#      example:
+#        demo:
+#          mapper: DEBUG
+  config: classpath:logback-spring.xml
+
+
+mybatis:
+  configuration:
+    log-impl: org.apache.ibatis.logging.stdout.StdOutImpl
+  type-aliases-package: com.example.demo.entity
+  mapper-locations: classpath:mybatis/*.xml
+
+pagehelper:
+  helper-dialect: mysql
+  reasonable: true
+  support-methods-arguments: true
+  params: count=countsql
+
+#debug: true
