@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.example.demo.mapper.ParameterMapper">
+  <resultMap id="BaseResultMap" type="com.example.demo.entity.Parameter">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="posID" jdbcType="INTEGER" property="posid" />
+    <result column="App_Sub_ID" jdbcType="VARCHAR" property="appSubId" />
+    <result column="App_Token" jdbcType="VARCHAR" property="appToken" />
+    <result column="Api_ID" jdbcType="VARCHAR" property="apiId" />
+    <result column="Api_Version" jdbcType="VARCHAR" property="apiVersion" />
+    <result column="Time_Stamp" jdbcType="VARCHAR" property="timeStamp" />
+    <result column="Sign_Method" jdbcType="VARCHAR" property="signMethod" />
+    <result column="Sign" jdbcType="VARCHAR" property="sign" />
+    <result column="Format" jdbcType="VARCHAR" property="format" />
+    <result column="Partner_ID" jdbcType="VARCHAR" property="partnerId" />
+    <result column="Sys_ID" jdbcType="VARCHAR" property="sysId" />
+    <result column="App_Pub_ID" jdbcType="VARCHAR" property="appPubId" />
+    <result column="Is_Sand_Box" jdbcType="VARCHAR" property="isSandBox" />
+    <result column="api_name" jdbcType="VARCHAR" property="apiName" />
+    <result column="api_ne" jdbcType="VARCHAR" property="apiNe" />
+    <result column="api_sx" jdbcType="VARCHAR" property="apiSx" />
+  </resultMap>
+</mapper>

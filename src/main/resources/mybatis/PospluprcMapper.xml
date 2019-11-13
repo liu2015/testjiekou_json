@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.example.demo.mapper.PospluprcMapper">
+  <resultMap id="BaseResultMap" type="com.example.demo.entity.Pospluprc">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="posid" jdbcType="INTEGER" property="posid" />
+    <result column="cashierId" jdbcType="VARCHAR" property="cashierid" />
+    <result column="Comments" jdbcType="VARCHAR" property="comments" />
+    <result column="itemCode" jdbcType="VARCHAR" property="itemcode" />
+    <result column="price" jdbcType="VARCHAR" property="price" />
+    <result column="quantity" jdbcType="VARCHAR" property="quantity" />
+    <result column="Mall" jdbcType="VARCHAR" property="mall" />
+    <result column="Mobile" jdbcType="VARCHAR" property="mobile" />
+    <result column="orderId" jdbcType="VARCHAR" property="orderid" />
+    <result column="cardBank" jdbcType="VARCHAR" property="cardbank" />
+    <result column="cardNumber" jdbcType="VARCHAR" property="cardnumber" />
+    <result column="paymentMethod" jdbcType="VARCHAR" property="paymentmethod" />
+    <result column="payTime" jdbcType="VARCHAR" property="paytime" />
+    <result column="Value" jdbcType="DOUBLE" property="value" />
+    <result column="payAmt" jdbcType="DOUBLE" property="payamt" />
+    <result column="discountAmt" jdbcType="DOUBLE" property="discountamt" />
+    <result column="Store" jdbcType="VARCHAR" property="store" />
+    <result column="tillId" jdbcType="VARCHAR" property="tillid" />
+    <result column="Time" jdbcType="VARCHAR" property="time" />
+    <result column="totalAmt" jdbcType="VARCHAR" property="totalamt" />
+    <result column="type" jdbcType="VARCHAR" property="type" />
+    <result column="checkCode" jdbcType="VARCHAR" property="checkcode" />
+    <result column="refOrderId" jdbcType="VARCHAR" property="reforderid" />
+    <result column="source" jdbcType="VARCHAR" property="source" />
+  </resultMap>
+</mapper>
