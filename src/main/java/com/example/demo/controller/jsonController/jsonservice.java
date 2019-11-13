@@ -24,7 +24,8 @@ import java.util.Map;
  * @Date: 2019/11/13 9:47
  * @Version: 1.0
  */
-@Controller("/jsons-service")
+@Controller
+@RequestMapping("/jsons-service")
 public class jsonservice {
 
     private final static Logger logger =LoggerFactory.getLogger( jsonservice.class );
