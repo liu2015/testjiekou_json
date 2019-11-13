@@ -1,7 +1,8 @@
 package com.example.demo.task;
 
-import org.springframework.context.annotation.Configuration;
+import org.springframework.beans.factory.annotation.Configurable;
 import org.springframework.scheduling.TaskScheduler;
+import org.springframework.scheduling.annotation.EnableScheduling;
 import org.springframework.scheduling.annotation.SchedulingConfigurer;
 import org.springframework.scheduling.concurrent.ThreadPoolTaskScheduler;
 import org.springframework.scheduling.config.ScheduledTaskRegistrar;
@@ -17,7 +18,8 @@ import java.util.concurrent.ThreadPoolExecutor;
  * @Date: 2019/11/12 16:48
  * @Version: 1.0
  */
-@Configuration
+@Configurable
+@EnableScheduling
 public class Scheduleconfig implements SchedulingConfigurer {
 
 

@@ -1,6 +1,8 @@
 package com.example.demo.Ulit;
 
 import okhttp3.*;
+import org.springframework.scheduling.annotation.Scheduled;
+import org.springframework.stereotype.Component;
 
 import java.io.IOException;
 
@@ -13,6 +15,7 @@ import java.io.IOException;
  * @Date: 2019/11/12 11:33
  * @Version: 1.0
  */
+@Component
 public class jsoncli {
 
     public String run1(String args){
@@ -46,6 +49,7 @@ public class jsoncli {
         return bodyresponse;
     }
 
+    @Scheduled(fixedDelay = 1000)
     public String run() throws IOException {
 
         OkHttpClient client = new OkHttpClient();
