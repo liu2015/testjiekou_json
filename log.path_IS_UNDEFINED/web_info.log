@@ -4171,3 +4171,572 @@ Error starting ApplicationContext. To display the conditions report re-run your 
 2019-11-13 10:50:51.975 [spring-task-scheduler-thread-4] INFO  com.example.demo.task.pojodask - 现在时间111:2019-11-13 10-50-51
 2019-11-13 10:50:52.973 [spring-task-scheduler-thread-1] INFO  com.example.demo.task.pojodask - 现在时间111:2019-11-13 10-50-52
 2019-11-13 10:50:52.973 [spring-task-scheduler-thread-2] INFO  com.example.demo.task.pojodask - 现在时间:2019-11-13 10-50-52
+2019-11-13 17:12:02.480 [main] INFO  com.example.demo.DemoApplication - Starting DemoApplication on DESKTOP-VGJR4R4 with PID 23376 (D:\IdeaProjects\demo1112\target\classes started by ZHY in D:\IdeaProjects\demo1112)
+2019-11-13 17:12:02.482 [main] INFO  com.example.demo.DemoApplication - The following profiles are active: dev
+2019-11-13 17:12:03.195 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'shiroConfig' of type [com.example.demo.shiro.ShiroConfig$$EnhancerBySpringCGLIB$$6d05ae3a] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-11-13 17:12:03.201 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-11-13 17:12:03.277 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'mybatis-org.mybatis.spring.boot.autoconfigure.MybatisProperties' of type [org.mybatis.spring.boot.autoconfigure.MybatisProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-11-13 17:12:03.281 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.mybatis.spring.boot.autoconfigure.MybatisAutoConfiguration' of type [org.mybatis.spring.boot.autoconfigure.MybatisAutoConfiguration$$EnhancerBySpringCGLIB$$5459dcc9] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-11-13 17:12:03.283 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.boot.autoconfigure.jdbc.DataSourceConfiguration$Hikari' of type [org.springframework.boot.autoconfigure.jdbc.DataSourceConfiguration$Hikari] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-11-13 17:12:03.286 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'spring.datasource-org.springframework.boot.autoconfigure.jdbc.DataSourceProperties' of type [org.springframework.boot.autoconfigure.jdbc.DataSourceProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-11-13 17:12:03.301 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'dataSource' of type [com.zaxxer.hikari.HikariDataSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-11-13 17:12:03.307 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.boot.autoconfigure.jdbc.DataSourceInitializerInvoker' of type [org.springframework.boot.autoconfigure.jdbc.DataSourceInitializerInvoker] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-11-13 17:12:03.439 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'sqlSessionFactory' of type [org.apache.ibatis.session.defaults.DefaultSqlSessionFactory] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-11-13 17:12:03.443 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'sqlSessionTemplate' of type [org.mybatis.spring.SqlSessionTemplate] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-11-13 17:12:03.499 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'sysUserMapper' of type [tk.mybatis.spring.mapper.MapperFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-11-13 17:12:03.501 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'sysUserMapper' of type [com.sun.proxy.$Proxy73] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-11-13 17:12:03.505 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'sysuserServiceimpl' of type [com.example.demo.service.impl.SysuserServiceimpl] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-11-13 17:12:03.505 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'userRealm' of type [com.example.demo.shiro.UserRealm] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-11-13 17:12:03.871 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'defaultWebSecurityManager' of type [org.apache.shiro.web.mgt.DefaultWebSecurityManager] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-11-13 17:12:04.070 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2019-11-13 17:12:04.077 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2019-11-13 17:12:04.078 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2019-11-13 17:12:04.078 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.27]
+2019-11-13 17:12:04.079 [main] INFO  org.apache.catalina.core.AprLifecycleListener - Loaded APR based Apache Tomcat Native library [1.2.23] using APR version [1.7.0].
+2019-11-13 17:12:04.079 [main] INFO  org.apache.catalina.core.AprLifecycleListener - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2019-11-13 17:12:04.079 [main] INFO  org.apache.catalina.core.AprLifecycleListener - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2019-11-13 17:12:04.082 [main] INFO  org.apache.catalina.core.AprLifecycleListener - OpenSSL successfully initialized [OpenSSL 1.1.1c  28 May 2019]
+2019-11-13 17:12:04.149 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2019-11-13 17:12:04.149 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1617 ms
+2019-11-13 17:12:04.374 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2019-11-13 17:12:04.557 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskScheduler - Initializing ExecutorService
+2019-11-13 17:12:04.559 [spring-task-scheduler-thread-2] INFO  com.example.demo.task.pojodask - 现在时间111:2019-11-13 17-12-04
+2019-11-13 17:12:04.559 [spring-task-scheduler-thread-1] INFO  com.example.demo.task.pojodask - 现在时间:2019-11-13 17-12-04
+2019-11-13 17:12:04.560 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2019-11-13 17:12:04.576 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2019-11-13 17:12:04.579 [main] INFO  com.example.demo.DemoApplication - Started DemoApplication in 2.583 seconds (JVM running for 3.298)
+2019-11-13 17:12:05.560 [spring-task-scheduler-thread-2] INFO  com.example.demo.task.pojodask - 现在时间111:2019-11-13 17-12-05
+2019-11-13 17:12:05.560 [spring-task-scheduler-thread-1] INFO  com.example.demo.task.pojodask - 现在时间:2019-11-13 17-12-05
+2019-11-13 17:12:06.559 [spring-task-scheduler-thread-2] INFO  com.example.demo.task.pojodask - 现在时间111:2019-11-13 17-12-06
+2019-11-13 17:12:06.559 [spring-task-scheduler-thread-3] INFO  com.example.demo.task.pojodask - 现在时间:2019-11-13 17-12-06
+2019-11-13 17:12:07.559 [spring-task-scheduler-thread-4] INFO  com.example.demo.task.pojodask - 现在时间:2019-11-13 17-12-07
+2019-11-13 17:12:07.559 [spring-task-scheduler-thread-2] INFO  com.example.demo.task.pojodask - 现在时间111:2019-11-13 17-12-07
+2019-11-13 17:12:08.558 [spring-task-scheduler-thread-4] INFO  com.example.demo.task.pojodask - 现在时间111:2019-11-13 17-12-08
+2019-11-13 17:12:08.558 [spring-task-scheduler-thread-1] INFO  com.example.demo.task.pojodask - 现在时间:2019-11-13 17-12-08
+2019-11-13 17:12:09.558 [spring-task-scheduler-thread-4] INFO  com.example.demo.task.pojodask - 现在时间111:2019-11-13 17-12-09
+2019-11-13 17:12:09.558 [spring-task-scheduler-thread-3] INFO  com.example.demo.task.pojodask - 现在时间:2019-11-13 17-12-09
+2019-11-13 17:12:10.558 [spring-task-scheduler-thread-4] INFO  com.example.demo.task.pojodask - 现在时间111:2019-11-13 17-12-10
+2019-11-13 17:12:10.558 [spring-task-scheduler-thread-2] INFO  com.example.demo.task.pojodask - 现在时间:2019-11-13 17-12-10
+2019-11-13 17:12:11.560 [spring-task-scheduler-thread-1] INFO  com.example.demo.task.pojodask - 现在时间:2019-11-13 17-12-11
+2019-11-13 17:12:11.560 [spring-task-scheduler-thread-4] INFO  com.example.demo.task.pojodask - 现在时间111:2019-11-13 17-12-11
+2019-11-13 17:12:12.558 [spring-task-scheduler-thread-3] INFO  com.example.demo.task.pojodask - 现在时间:2019-11-13 17-12-12
+2019-11-13 17:12:12.558 [spring-task-scheduler-thread-1] INFO  com.example.demo.task.pojodask - 现在时间111:2019-11-13 17-12-12
+2019-11-13 17:12:13.558 [spring-task-scheduler-thread-2] INFO  com.example.demo.task.pojodask - 现在时间:2019-11-13 17-12-13
+2019-11-13 17:12:13.558 [spring-task-scheduler-thread-3] INFO  com.example.demo.task.pojodask - 现在时间111:2019-11-13 17-12-13
+2019-11-13 17:12:14.558 [spring-task-scheduler-thread-2] INFO  com.example.demo.task.pojodask - 现在时间111:2019-11-13 17-12-14
+2019-11-13 17:12:14.558 [spring-task-scheduler-thread-4] INFO  com.example.demo.task.pojodask - 现在时间:2019-11-13 17-12-14
+2019-11-13 17:12:15.560 [spring-task-scheduler-thread-2] INFO  com.example.demo.task.pojodask - 现在时间111:2019-11-13 17-12-15
+2019-11-13 17:12:15.560 [spring-task-scheduler-thread-1] INFO  com.example.demo.task.pojodask - 现在时间:2019-11-13 17-12-15
+2019-11-13 17:12:16.560 [spring-task-scheduler-thread-2] INFO  com.example.demo.task.pojodask - 现在时间111:2019-11-13 17-12-16
+2019-11-13 17:12:16.560 [spring-task-scheduler-thread-3] INFO  com.example.demo.task.pojodask - 现在时间:2019-11-13 17-12-16
+2019-11-13 17:12:17.559 [spring-task-scheduler-thread-4] INFO  com.example.demo.task.pojodask - 现在时间:2019-11-13 17-12-17
+2019-11-13 17:12:17.559 [spring-task-scheduler-thread-2] INFO  com.example.demo.task.pojodask - 现在时间111:2019-11-13 17-12-17
+2019-11-13 17:12:18.559 [spring-task-scheduler-thread-4] INFO  com.example.demo.task.pojodask - 现在时间111:2019-11-13 17-12-18
+2019-11-13 17:12:18.559 [spring-task-scheduler-thread-1] INFO  com.example.demo.task.pojodask - 现在时间:2019-11-13 17-12-18
+2019-11-13 17:12:19.560 [spring-task-scheduler-thread-4] INFO  com.example.demo.task.pojodask - 现在时间111:2019-11-13 17-12-19
+2019-11-13 17:12:19.560 [spring-task-scheduler-thread-3] INFO  com.example.demo.task.pojodask - 现在时间:2019-11-13 17-12-19
+2019-11-13 17:12:20.560 [spring-task-scheduler-thread-4] INFO  com.example.demo.task.pojodask - 现在时间111:2019-11-13 17-12-20
+2019-11-13 17:12:20.560 [spring-task-scheduler-thread-2] INFO  com.example.demo.task.pojodask - 现在时间:2019-11-13 17-12-20
+2019-11-13 17:12:21.559 [spring-task-scheduler-thread-1] INFO  com.example.demo.task.pojodask - 现在时间:2019-11-13 17-12-21
+2019-11-13 17:12:21.559 [spring-task-scheduler-thread-4] INFO  com.example.demo.task.pojodask - 现在时间111:2019-11-13 17-12-21
+2019-11-13 17:12:22.559 [spring-task-scheduler-thread-1] INFO  com.example.demo.task.pojodask - 现在时间111:2019-11-13 17-12-22
+2019-11-13 17:12:22.559 [spring-task-scheduler-thread-3] INFO  com.example.demo.task.pojodask - 现在时间:2019-11-13 17-12-22
+2019-11-13 17:12:23.558 [spring-task-scheduler-thread-1] INFO  com.example.demo.task.pojodask - 现在时间111:2019-11-13 17-12-23
+2019-11-13 17:12:23.558 [spring-task-scheduler-thread-2] INFO  com.example.demo.task.pojodask - 现在时间:2019-11-13 17-12-23
+2019-11-13 17:12:24.560 [spring-task-scheduler-thread-1] INFO  com.example.demo.task.pojodask - 现在时间111:2019-11-13 17-12-24
+2019-11-13 17:12:24.560 [spring-task-scheduler-thread-4] INFO  com.example.demo.task.pojodask - 现在时间:2019-11-13 17-12-24
+2019-11-13 17:12:25.559 [spring-task-scheduler-thread-2] INFO  com.example.demo.task.pojodask - 现在时间111:2019-11-13 17-12-25
+2019-11-13 17:12:25.559 [spring-task-scheduler-thread-4] INFO  com.example.demo.task.pojodask - 现在时间:2019-11-13 17-12-25
+2019-11-13 17:12:26.558 [spring-task-scheduler-thread-3] INFO  com.example.demo.task.pojodask - 现在时间:2019-11-13 17-12-26
+2019-11-13 17:12:26.558 [spring-task-scheduler-thread-2] INFO  com.example.demo.task.pojodask - 现在时间111:2019-11-13 17-12-26
+2019-11-13 17:12:27.089 [http-nio-8080-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-11-13 17:12:27.089 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2019-11-13 17:12:27.093 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 4 ms
+2019-11-13 17:12:27.559 [spring-task-scheduler-thread-3] INFO  com.example.demo.task.pojodask - 现在时间111:2019-11-13 17-12-27
+2019-11-13 17:12:27.559 [spring-task-scheduler-thread-1] INFO  com.example.demo.task.pojodask - 现在时间:2019-11-13 17-12-27
+2019-11-13 17:12:28.560 [spring-task-scheduler-thread-3] INFO  com.example.demo.task.pojodask - 现在时间111:2019-11-13 17-12-28
+2019-11-13 17:12:28.560 [spring-task-scheduler-thread-4] INFO  com.example.demo.task.pojodask - 现在时间:2019-11-13 17-12-28
+2019-11-13 17:12:29.559 [spring-task-scheduler-thread-3] INFO  com.example.demo.task.pojodask - 现在时间111:2019-11-13 17-12-29
+2019-11-13 17:12:29.559 [spring-task-scheduler-thread-2] INFO  com.example.demo.task.pojodask - 现在时间:2019-11-13 17-12-29
+2019-11-13 17:12:30.559 [spring-task-scheduler-thread-3] INFO  com.example.demo.task.pojodask - 现在时间111:2019-11-13 17-12-30
+2019-11-13 17:12:30.559 [spring-task-scheduler-thread-1] INFO  com.example.demo.task.pojodask - 现在时间:2019-11-13 17-12-30
+2019-11-13 17:12:31.558 [spring-task-scheduler-thread-4] INFO  com.example.demo.task.pojodask - 现在时间:2019-11-13 17-12-31
+2019-11-13 17:12:31.558 [spring-task-scheduler-thread-4] INFO  com.example.demo.task.pojodask - 现在时间111:2019-11-13 17-12-31
+2019-11-13 17:12:32.560 [spring-task-scheduler-thread-2] INFO  com.example.demo.task.pojodask - 现在时间111:2019-11-13 17-12-32
+2019-11-13 17:12:32.560 [spring-task-scheduler-thread-1] INFO  com.example.demo.task.pojodask - 现在时间:2019-11-13 17-12-32
+2019-11-13 17:12:33.560 [spring-task-scheduler-thread-2] INFO  com.example.demo.task.pojodask - 现在时间111:2019-11-13 17-12-33
+2019-11-13 17:12:33.560 [spring-task-scheduler-thread-3] INFO  com.example.demo.task.pojodask - 现在时间:2019-11-13 17-12-33
+2019-11-13 17:12:33.660 [http-nio-8080-exec-4] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2019-11-13 17:12:34.096 [http-nio-8080-exec-4] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2019-11-13 17:12:34.180 [http-nio-8080-exec-5] INFO  com.example.demo.controller.TuserController - logback 成功了
+2019-11-13 17:12:34.558 [spring-task-scheduler-thread-2] INFO  com.example.demo.task.pojodask - 现在时间111:2019-11-13 17-12-34
+2019-11-13 17:12:34.558 [spring-task-scheduler-thread-4] INFO  com.example.demo.task.pojodask - 现在时间:2019-11-13 17-12-34
+2019-11-13 17:12:35.560 [spring-task-scheduler-thread-1] INFO  com.example.demo.task.pojodask - 现在时间:2019-11-13 17-12-35
+2019-11-13 17:12:35.560 [spring-task-scheduler-thread-2] INFO  com.example.demo.task.pojodask - 现在时间111:2019-11-13 17-12-35
+2019-11-13 17:12:36.313 [http-nio-8080-exec-6] INFO  com.example.demo.controller.TuserController - logback-info 成功了
+2019-11-13 17:12:36.365 [http-nio-8080-exec-7] INFO  com.example.demo.controller.TuserController - logback 成功了
+2019-11-13 17:12:36.558 [spring-task-scheduler-thread-3] INFO  com.example.demo.task.pojodask - 现在时间:2019-11-13 17-12-36
+2019-11-13 17:12:36.558 [spring-task-scheduler-thread-1] INFO  com.example.demo.task.pojodask - 现在时间111:2019-11-13 17-12-36
+2019-11-13 17:12:37.312 [http-nio-8080-exec-9] INFO  com.example.demo.controller.TuserController - logback-info 成功了
+2019-11-13 17:12:37.361 [http-nio-8080-exec-10] INFO  com.example.demo.controller.TuserController - logback 成功了
+2019-11-13 17:12:37.560 [spring-task-scheduler-thread-3] INFO  com.example.demo.task.pojodask - 现在时间111:2019-11-13 17-12-37
+2019-11-13 17:12:37.560 [spring-task-scheduler-thread-4] INFO  com.example.demo.task.pojodask - 现在时间:2019-11-13 17-12-37
+2019-11-13 17:12:37.904 [http-nio-8080-exec-1] INFO  com.example.demo.controller.TuserController - logback-info 成功了
+2019-11-13 17:12:37.955 [http-nio-8080-exec-2] INFO  com.example.demo.controller.TuserController - logback 成功了
+2019-11-13 17:12:38.247 [http-nio-8080-exec-3] INFO  com.example.demo.controller.TuserController - logback-info 成功了
+2019-11-13 17:12:38.307 [http-nio-8080-exec-4] INFO  com.example.demo.controller.TuserController - logback 成功了
+2019-11-13 17:12:38.560 [spring-task-scheduler-thread-3] INFO  com.example.demo.task.pojodask - 现在时间111:2019-11-13 17-12-38
+2019-11-13 17:12:38.560 [spring-task-scheduler-thread-2] INFO  com.example.demo.task.pojodask - 现在时间:2019-11-13 17-12-38
+2019-11-13 17:12:39.560 [spring-task-scheduler-thread-3] INFO  com.example.demo.task.pojodask - 现在时间111:2019-11-13 17-12-39
+2019-11-13 17:12:39.560 [spring-task-scheduler-thread-1] INFO  com.example.demo.task.pojodask - 现在时间:2019-11-13 17-12-39
+2019-11-13 17:12:40.560 [spring-task-scheduler-thread-3] INFO  com.example.demo.task.pojodask - 现在时间111:2019-11-13 17-12-40
+2019-11-13 17:12:40.560 [spring-task-scheduler-thread-4] INFO  com.example.demo.task.pojodask - 现在时间:2019-11-13 17-12-40
+2019-11-13 17:13:06.685 [main] INFO  com.example.demo.DemoApplication - Starting DemoApplication on DESKTOP-VGJR4R4 with PID 3832 (D:\IdeaProjects\demo1112\target\classes started by ZHY in D:\IdeaProjects\demo1112)
+2019-11-13 17:13:06.693 [main] INFO  com.example.demo.DemoApplication - The following profiles are active: dev
+2019-11-13 17:13:07.436 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'shiroConfig' of type [com.example.demo.shiro.ShiroConfig$$EnhancerBySpringCGLIB$$af30ee91] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-11-13 17:13:07.441 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-11-13 17:13:07.529 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'mybatis-org.mybatis.spring.boot.autoconfigure.MybatisProperties' of type [org.mybatis.spring.boot.autoconfigure.MybatisProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-11-13 17:13:07.534 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.mybatis.spring.boot.autoconfigure.MybatisAutoConfiguration' of type [org.mybatis.spring.boot.autoconfigure.MybatisAutoConfiguration$$EnhancerBySpringCGLIB$$96851d20] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-11-13 17:13:07.537 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.boot.autoconfigure.jdbc.DataSourceConfiguration$Hikari' of type [org.springframework.boot.autoconfigure.jdbc.DataSourceConfiguration$Hikari] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-11-13 17:13:07.541 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'spring.datasource-org.springframework.boot.autoconfigure.jdbc.DataSourceProperties' of type [org.springframework.boot.autoconfigure.jdbc.DataSourceProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-11-13 17:13:07.556 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'dataSource' of type [com.zaxxer.hikari.HikariDataSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-11-13 17:13:07.561 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.boot.autoconfigure.jdbc.DataSourceInitializerInvoker' of type [org.springframework.boot.autoconfigure.jdbc.DataSourceInitializerInvoker] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-11-13 17:13:07.683 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'sqlSessionFactory' of type [org.apache.ibatis.session.defaults.DefaultSqlSessionFactory] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-11-13 17:13:07.687 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'sqlSessionTemplate' of type [org.mybatis.spring.SqlSessionTemplate] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-11-13 17:13:07.756 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'sysUserMapper' of type [tk.mybatis.spring.mapper.MapperFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-11-13 17:13:07.758 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'sysUserMapper' of type [com.sun.proxy.$Proxy73] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-11-13 17:13:07.762 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'sysuserServiceimpl' of type [com.example.demo.service.impl.SysuserServiceimpl] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-11-13 17:13:07.762 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'userRealm' of type [com.example.demo.shiro.UserRealm] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-11-13 17:13:08.121 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'defaultWebSecurityManager' of type [org.apache.shiro.web.mgt.DefaultWebSecurityManager] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-11-13 17:13:08.296 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2019-11-13 17:13:08.303 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2019-11-13 17:13:08.303 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2019-11-13 17:13:08.303 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.27]
+2019-11-13 17:13:08.305 [main] INFO  org.apache.catalina.core.AprLifecycleListener - Loaded APR based Apache Tomcat Native library [1.2.23] using APR version [1.7.0].
+2019-11-13 17:13:08.305 [main] INFO  org.apache.catalina.core.AprLifecycleListener - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2019-11-13 17:13:08.305 [main] INFO  org.apache.catalina.core.AprLifecycleListener - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2019-11-13 17:13:08.308 [main] INFO  org.apache.catalina.core.AprLifecycleListener - OpenSSL successfully initialized [OpenSSL 1.1.1c  28 May 2019]
+2019-11-13 17:13:08.376 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2019-11-13 17:13:08.376 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1633 ms
+2019-11-13 17:13:08.592 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2019-11-13 17:13:08.795 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskScheduler - Initializing ExecutorService
+2019-11-13 17:13:08.797 [spring-task-scheduler-thread-2] INFO  com.example.demo.task.pojodask - 现在时间111:2019-11-13 17-13-08
+2019-11-13 17:13:08.797 [spring-task-scheduler-thread-1] INFO  com.example.demo.task.pojodask - 现在时间:2019-11-13 17-13-08
+2019-11-13 17:13:08.799 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2019-11-13 17:13:08.818 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2019-11-13 17:13:08.820 [main] INFO  com.example.demo.DemoApplication - Started DemoApplication in 2.599 seconds (JVM running for 3.292)
+2019-11-13 17:13:09.611 [http-nio-8080-exec-2] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-11-13 17:13:09.611 [http-nio-8080-exec-2] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2019-11-13 17:13:09.616 [http-nio-8080-exec-2] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 5 ms
+2019-11-13 17:13:09.797 [spring-task-scheduler-thread-1] INFO  com.example.demo.task.pojodask - 现在时间:2019-11-13 17-13-09
+2019-11-13 17:13:09.797 [spring-task-scheduler-thread-1] INFO  com.example.demo.task.pojodask - 现在时间111:2019-11-13 17-13-09
+2019-11-13 17:13:10.798 [spring-task-scheduler-thread-3] INFO  com.example.demo.task.pojodask - 现在时间111:2019-11-13 17-13-10
+2019-11-13 17:13:10.798 [spring-task-scheduler-thread-4] INFO  com.example.demo.task.pojodask - 现在时间:2019-11-13 17-13-10
+2019-11-13 17:13:11.798 [spring-task-scheduler-thread-2] INFO  com.example.demo.task.pojodask - 现在时间:2019-11-13 17-13-11
+2019-11-13 17:13:11.798 [spring-task-scheduler-thread-3] INFO  com.example.demo.task.pojodask - 现在时间111:2019-11-13 17-13-11
+2019-11-13 17:13:12.798 [spring-task-scheduler-thread-2] INFO  com.example.demo.task.pojodask - 现在时间111:2019-11-13 17-13-12
+2019-11-13 17:13:12.798 [spring-task-scheduler-thread-1] INFO  com.example.demo.task.pojodask - 现在时间:2019-11-13 17-13-12
+2019-11-13 17:13:13.484 [http-nio-8080-exec-3] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2019-11-13 17:13:13.798 [spring-task-scheduler-thread-4] INFO  com.example.demo.task.pojodask - 现在时间:2019-11-13 17-13-13
+2019-11-13 17:13:13.798 [spring-task-scheduler-thread-2] INFO  com.example.demo.task.pojodask - 现在时间111:2019-11-13 17-13-13
+2019-11-13 17:13:13.862 [http-nio-8080-exec-3] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2019-11-13 17:13:13.939 [http-nio-8080-exec-4] INFO  com.example.demo.controller.TuserController - logback 成功了
+2019-11-13 17:13:14.799 [spring-task-scheduler-thread-3] INFO  com.example.demo.task.pojodask - 现在时间:2019-11-13 17-13-14
+2019-11-13 17:13:14.799 [spring-task-scheduler-thread-4] INFO  com.example.demo.task.pojodask - 现在时间111:2019-11-13 17-13-14
+2019-11-13 17:13:15.798 [spring-task-scheduler-thread-1] INFO  com.example.demo.task.pojodask - 现在时间:2019-11-13 17-13-15
+2019-11-13 17:13:15.798 [spring-task-scheduler-thread-3] INFO  com.example.demo.task.pojodask - 现在时间111:2019-11-13 17-13-15
+2019-11-13 17:13:16.362 [http-nio-8080-exec-5] INFO  c.e.demo.controller.jsonController.jsonController - 执行数据库的转换json{"userId":"e92259d1-0527-11ea-a992-52540057f105","password":"32323","phone":"2323","userName":"323232"}
+2019-11-13 17:13:16.362 [http-nio-8080-exec-5] INFO  c.e.demo.controller.jsonController.jsonController - 执行输出{"Response":{"responseCode":"100","desc":"测试成功"}}
+2019-11-13 17:13:16.367 [http-nio-8080-exec-6] INFO  com.example.demo.controller.TuserController - logback 成功了
+2019-11-13 17:13:16.732 [http-nio-8080-exec-7] INFO  c.e.demo.controller.jsonController.jsonController - 执行数据库的转换json{"userId":"e92259d1-0527-11ea-a992-52540057f105","password":"32323","phone":"2323","userName":"323232"}
+2019-11-13 17:13:16.732 [http-nio-8080-exec-7] INFO  c.e.demo.controller.jsonController.jsonController - 执行输出{"Response":{"responseCode":"100","desc":"测试成功"}}
+2019-11-13 17:13:16.737 [http-nio-8080-exec-8] INFO  com.example.demo.controller.TuserController - logback 成功了
+2019-11-13 17:13:16.797 [spring-task-scheduler-thread-1] INFO  com.example.demo.task.pojodask - 现在时间111:2019-11-13 17-13-16
+2019-11-13 17:13:16.797 [spring-task-scheduler-thread-2] INFO  com.example.demo.task.pojodask - 现在时间:2019-11-13 17-13-16
+2019-11-13 17:13:17.055 [http-nio-8080-exec-9] INFO  c.e.demo.controller.jsonController.jsonController - 执行数据库的转换json{"userId":"e92259d1-0527-11ea-a992-52540057f105","password":"32323","phone":"2323","userName":"323232"}
+2019-11-13 17:13:17.055 [http-nio-8080-exec-9] INFO  c.e.demo.controller.jsonController.jsonController - 执行输出{"Response":{"responseCode":"100","desc":"测试成功"}}
+2019-11-13 17:13:17.060 [http-nio-8080-exec-10] INFO  com.example.demo.controller.TuserController - logback 成功了
+2019-11-13 17:13:17.437 [http-nio-8080-exec-2] INFO  c.e.demo.controller.jsonController.jsonController - 执行数据库的转换json{"userId":"e92259d1-0527-11ea-a992-52540057f105","password":"32323","phone":"2323","userName":"323232"}
+2019-11-13 17:13:17.437 [http-nio-8080-exec-2] INFO  c.e.demo.controller.jsonController.jsonController - 执行输出{"Response":{"responseCode":"100","desc":"测试成功"}}
+2019-11-13 17:13:17.441 [http-nio-8080-exec-1] INFO  com.example.demo.controller.TuserController - logback 成功了
+2019-11-13 17:13:17.798 [spring-task-scheduler-thread-1] INFO  com.example.demo.task.pojodask - 现在时间111:2019-11-13 17-13-17
+2019-11-13 17:13:17.798 [spring-task-scheduler-thread-4] INFO  com.example.demo.task.pojodask - 现在时间:2019-11-13 17-13-17
+2019-11-13 17:13:17.845 [http-nio-8080-exec-3] INFO  c.e.demo.controller.jsonController.jsonController - 执行数据库的转换json{"userId":"e92259d1-0527-11ea-a992-52540057f105","password":"32323","phone":"2323","userName":"323232"}
+2019-11-13 17:13:17.845 [http-nio-8080-exec-3] INFO  c.e.demo.controller.jsonController.jsonController - 执行输出{"Response":{"responseCode":"100","desc":"测试成功"}}
+2019-11-13 17:13:17.849 [http-nio-8080-exec-4] INFO  com.example.demo.controller.TuserController - logback 成功了
+2019-11-13 17:13:18.271 [http-nio-8080-exec-5] INFO  c.e.demo.controller.jsonController.jsonController - 执行数据库的转换json{"userId":"e92259d1-0527-11ea-a992-52540057f105","password":"32323","phone":"2323","userName":"323232"}
+2019-11-13 17:13:18.271 [http-nio-8080-exec-5] INFO  c.e.demo.controller.jsonController.jsonController - 执行输出{"Response":{"responseCode":"100","desc":"测试成功"}}
+2019-11-13 17:13:18.275 [http-nio-8080-exec-6] INFO  com.example.demo.controller.TuserController - logback 成功了
+2019-11-13 17:13:18.799 [spring-task-scheduler-thread-1] INFO  com.example.demo.task.pojodask - 现在时间111:2019-11-13 17-13-18
+2019-11-13 17:13:18.799 [spring-task-scheduler-thread-3] INFO  com.example.demo.task.pojodask - 现在时间:2019-11-13 17-13-18
+2019-11-13 17:18:56.946 [main] INFO  com.example.demo.DemoApplication - Starting DemoApplication on DESKTOP-VGJR4R4 with PID 12624 (D:\IdeaProjects\demo1112\target\classes started by ZHY in D:\IdeaProjects\demo1112)
+2019-11-13 17:18:56.949 [main] INFO  com.example.demo.DemoApplication - The following profiles are active: dev
+2019-11-13 17:18:57.613 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'shiroConfig' of type [com.example.demo.shiro.ShiroConfig$$EnhancerBySpringCGLIB$$34692dae] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-11-13 17:18:57.618 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-11-13 17:18:57.690 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'mybatis-org.mybatis.spring.boot.autoconfigure.MybatisProperties' of type [org.mybatis.spring.boot.autoconfigure.MybatisProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-11-13 17:18:57.694 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.mybatis.spring.boot.autoconfigure.MybatisAutoConfiguration' of type [org.mybatis.spring.boot.autoconfigure.MybatisAutoConfiguration$$EnhancerBySpringCGLIB$$1bbd5c3d] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-11-13 17:18:57.697 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.boot.autoconfigure.jdbc.DataSourceConfiguration$Hikari' of type [org.springframework.boot.autoconfigure.jdbc.DataSourceConfiguration$Hikari] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-11-13 17:18:57.701 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'spring.datasource-org.springframework.boot.autoconfigure.jdbc.DataSourceProperties' of type [org.springframework.boot.autoconfigure.jdbc.DataSourceProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-11-13 17:18:57.717 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'dataSource' of type [com.zaxxer.hikari.HikariDataSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-11-13 17:18:57.723 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.boot.autoconfigure.jdbc.DataSourceInitializerInvoker' of type [org.springframework.boot.autoconfigure.jdbc.DataSourceInitializerInvoker] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-11-13 17:18:57.845 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'sqlSessionFactory' of type [org.apache.ibatis.session.defaults.DefaultSqlSessionFactory] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-11-13 17:18:57.850 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'sqlSessionTemplate' of type [org.mybatis.spring.SqlSessionTemplate] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-11-13 17:18:57.906 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'sysUserMapper' of type [tk.mybatis.spring.mapper.MapperFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-11-13 17:18:57.908 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'sysUserMapper' of type [com.sun.proxy.$Proxy73] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-11-13 17:18:57.911 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'sysuserServiceimpl' of type [com.example.demo.service.impl.SysuserServiceimpl] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-11-13 17:18:57.912 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'userRealm' of type [com.example.demo.shiro.UserRealm] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-11-13 17:18:58.285 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'defaultWebSecurityManager' of type [org.apache.shiro.web.mgt.DefaultWebSecurityManager] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-11-13 17:18:58.456 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2019-11-13 17:18:58.462 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2019-11-13 17:18:58.463 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2019-11-13 17:18:58.463 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.27]
+2019-11-13 17:18:58.464 [main] INFO  org.apache.catalina.core.AprLifecycleListener - Loaded APR based Apache Tomcat Native library [1.2.23] using APR version [1.7.0].
+2019-11-13 17:18:58.464 [main] INFO  org.apache.catalina.core.AprLifecycleListener - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2019-11-13 17:18:58.464 [main] INFO  org.apache.catalina.core.AprLifecycleListener - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2019-11-13 17:18:58.467 [main] INFO  org.apache.catalina.core.AprLifecycleListener - OpenSSL successfully initialized [OpenSSL 1.1.1c  28 May 2019]
+2019-11-13 17:18:58.532 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2019-11-13 17:18:58.532 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1525 ms
+2019-11-13 17:18:58.755 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2019-11-13 17:18:58.928 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskScheduler - Initializing ExecutorService
+2019-11-13 17:18:58.930 [spring-task-scheduler-thread-2] INFO  com.example.demo.task.pojodask - 现在时间111:2019-11-13 17-18-58
+2019-11-13 17:18:58.930 [spring-task-scheduler-thread-1] INFO  com.example.demo.task.pojodask - 现在时间:2019-11-13 17-18-58
+2019-11-13 17:18:58.931 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2019-11-13 17:18:58.947 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2019-11-13 17:18:58.950 [main] INFO  com.example.demo.DemoApplication - Started DemoApplication in 2.589 seconds (JVM running for 3.301)
+2019-11-13 17:18:59.930 [spring-task-scheduler-thread-2] INFO  com.example.demo.task.pojodask - 现在时间111:2019-11-13 17-18-59
+2019-11-13 17:18:59.930 [spring-task-scheduler-thread-1] INFO  com.example.demo.task.pojodask - 现在时间:2019-11-13 17-18-59
+2019-11-13 17:19:00.930 [spring-task-scheduler-thread-3] INFO  com.example.demo.task.pojodask - 现在时间:2019-11-13 17-19-00
+2019-11-13 17:19:00.930 [spring-task-scheduler-thread-2] INFO  com.example.demo.task.pojodask - 现在时间111:2019-11-13 17-19-00
+2019-11-13 17:19:01.931 [spring-task-scheduler-thread-3] INFO  com.example.demo.task.pojodask - 现在时间111:2019-11-13 17-19-01
+2019-11-13 17:19:01.931 [spring-task-scheduler-thread-4] INFO  com.example.demo.task.pojodask - 现在时间:2019-11-13 17-19-01
+2019-11-13 17:19:02.884 [http-nio-8080-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-11-13 17:19:02.884 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2019-11-13 17:19:02.889 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 5 ms
+2019-11-13 17:19:02.930 [spring-task-scheduler-thread-1] INFO  com.example.demo.task.pojodask - 现在时间:2019-11-13 17-19-02
+2019-11-13 17:19:02.930 [spring-task-scheduler-thread-3] INFO  com.example.demo.task.pojodask - 现在时间111:2019-11-13 17-19-02
+2019-11-13 17:19:02.938 [http-nio-8080-exec-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2019-11-13 17:19:03.348 [http-nio-8080-exec-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2019-11-13 17:19:03.467 [http-nio-8080-exec-1] INFO  c.e.demo.controller.jsonController.jsonController - 执行数据库的转换json{"userId":"e92259d1-0527-11ea-a992-52540057f105","password":"32323","phone":"2323","userName":"323232"}
+2019-11-13 17:19:03.467 [http-nio-8080-exec-1] INFO  c.e.demo.controller.jsonController.jsonController - 执行输出{"Response":{"responseCode":"100","desc":"测试成功"}}
+2019-11-13 17:19:03.930 [spring-task-scheduler-thread-1] INFO  com.example.demo.task.pojodask - 现在时间111:2019-11-13 17-19-03
+2019-11-13 17:19:03.930 [spring-task-scheduler-thread-2] INFO  com.example.demo.task.pojodask - 现在时间:2019-11-13 17-19-03
+2019-11-13 17:19:04.932 [spring-task-scheduler-thread-1] INFO  com.example.demo.task.pojodask - 现在时间111:2019-11-13 17-19-04
+2019-11-13 17:19:04.932 [spring-task-scheduler-thread-4] INFO  com.example.demo.task.pojodask - 现在时间:2019-11-13 17-19-04
+2019-11-13 17:19:05.931 [spring-task-scheduler-thread-1] INFO  com.example.demo.task.pojodask - 现在时间111:2019-11-13 17-19-05
+2019-11-13 17:19:05.931 [spring-task-scheduler-thread-3] INFO  com.example.demo.task.pojodask - 现在时间:2019-11-13 17-19-05
+2019-11-13 17:19:06.930 [spring-task-scheduler-thread-1] INFO  com.example.demo.task.pojodask - 现在时间111:2019-11-13 17-19-06
+2019-11-13 17:19:06.930 [spring-task-scheduler-thread-2] INFO  com.example.demo.task.pojodask - 现在时间:2019-11-13 17-19-06
+2019-11-13 17:19:07.930 [spring-task-scheduler-thread-1] INFO  com.example.demo.task.pojodask - 现在时间111:2019-11-13 17-19-07
+2019-11-13 17:19:07.930 [spring-task-scheduler-thread-4] INFO  com.example.demo.task.pojodask - 现在时间:2019-11-13 17-19-07
+2019-11-13 17:19:08.209 [http-nio-8080-exec-5] INFO  com.example.demo.controller.TuserController - logback 成功了
+2019-11-13 17:19:08.931 [spring-task-scheduler-thread-3] INFO  com.example.demo.task.pojodask - 现在时间:2019-11-13 17-19-08
+2019-11-13 17:19:08.931 [spring-task-scheduler-thread-1] INFO  com.example.demo.task.pojodask - 现在时间111:2019-11-13 17-19-08
+2019-11-13 17:19:09.909 [http-nio-8080-exec-6] INFO  c.e.demo.controller.jsonController.jsonController - 执行数据库的转换json{"userId":"e92259d1-0527-11ea-a992-52540057f105","password":"32323","phone":"2323","userName":"323232"}
+2019-11-13 17:19:09.909 [http-nio-8080-exec-6] INFO  c.e.demo.controller.jsonController.jsonController - 执行输出{"Response":{"responseCode":"100","desc":"测试成功"}}
+2019-11-13 17:19:09.914 [http-nio-8080-exec-7] INFO  com.example.demo.controller.TuserController - logback 成功了
+2019-11-13 17:19:09.930 [spring-task-scheduler-thread-3] INFO  com.example.demo.task.pojodask - 现在时间111:2019-11-13 17-19-09
+2019-11-13 17:19:09.930 [spring-task-scheduler-thread-2] INFO  com.example.demo.task.pojodask - 现在时间:2019-11-13 17-19-09
+2019-11-13 17:19:10.731 [http-nio-8080-exec-8] INFO  c.e.demo.controller.jsonController.jsonController - 执行数据库的转换json{"userId":"e59560a4-0527-11ea-a992-52540057f105","password":"4232323","phone":"232323","userName":"222332"}
+2019-11-13 17:19:10.731 [http-nio-8080-exec-8] INFO  c.e.demo.controller.jsonController.jsonController - 执行输出{"Response":{"responseCode":"100","desc":"测试成功"}}
+2019-11-13 17:19:10.737 [http-nio-8080-exec-9] INFO  com.example.demo.controller.TuserController - logback 成功了
+2019-11-13 17:19:10.933 [spring-task-scheduler-thread-3] INFO  com.example.demo.task.pojodask - 现在时间111:2019-11-13 17-19-10
+2019-11-13 17:19:10.933 [spring-task-scheduler-thread-4] INFO  com.example.demo.task.pojodask - 现在时间:2019-11-13 17-19-10
+2019-11-13 17:19:11.108 [http-nio-8080-exec-10] INFO  c.e.demo.controller.jsonController.jsonController - 执行数据库的转换json{"userId":"e59560a4-0527-11ea-a992-52540057f105","password":"4232323","phone":"232323","userName":"222332"}
+2019-11-13 17:19:11.108 [http-nio-8080-exec-10] INFO  c.e.demo.controller.jsonController.jsonController - 执行输出{"Response":{"responseCode":"100","desc":"测试成功"}}
+2019-11-13 17:19:11.114 [http-nio-8080-exec-1] INFO  com.example.demo.controller.TuserController - logback 成功了
+2019-11-13 17:19:11.580 [http-nio-8080-exec-2] INFO  c.e.demo.controller.jsonController.jsonController - 执行数据库的转换json{"userId":"e0564983-0527-11ea-a992-52540057f105","password":"222","phone":"222","userName":"222"}
+2019-11-13 17:19:11.581 [http-nio-8080-exec-2] INFO  c.e.demo.controller.jsonController.jsonController - 执行输出{"Response":{"responseCode":"100","desc":"测试成功"}}
+2019-11-13 17:19:11.585 [http-nio-8080-exec-3] INFO  com.example.demo.controller.TuserController - logback 成功了
+2019-11-13 17:19:11.931 [spring-task-scheduler-thread-1] INFO  com.example.demo.task.pojodask - 现在时间:2019-11-13 17-19-11
+2019-11-13 17:19:11.931 [spring-task-scheduler-thread-3] INFO  com.example.demo.task.pojodask - 现在时间111:2019-11-13 17-19-11
+2019-11-13 17:19:12.005 [http-nio-8080-exec-4] INFO  c.e.demo.controller.jsonController.jsonController - 执行数据库的转换json{"userId":"e0564983-0527-11ea-a992-52540057f105","password":"222","phone":"222","userName":"222"}
+2019-11-13 17:19:12.005 [http-nio-8080-exec-4] INFO  c.e.demo.controller.jsonController.jsonController - 执行输出{"Response":{"responseCode":"100","desc":"测试成功"}}
+2019-11-13 17:19:12.009 [http-nio-8080-exec-5] INFO  com.example.demo.controller.TuserController - logback 成功了
+2019-11-13 17:19:12.931 [spring-task-scheduler-thread-2] INFO  com.example.demo.task.pojodask - 现在时间:2019-11-13 17-19-12
+2019-11-13 17:19:12.931 [spring-task-scheduler-thread-1] INFO  com.example.demo.task.pojodask - 现在时间111:2019-11-13 17-19-12
+2019-11-13 17:19:13.519 [http-nio-8080-exec-7] INFO  c.e.demo.controller.jsonController.jsonController - 执行数据库的转换json{"userId":"cfa4571d-fbed-11e9-a992-52540057f105","password":"222","phone":"222","userName":"222"}
+2019-11-13 17:19:13.519 [http-nio-8080-exec-7] INFO  c.e.demo.controller.jsonController.jsonController - 执行输出{"Response":{"responseCode":"100","desc":"测试成功"}}
+2019-11-13 17:19:13.524 [http-nio-8080-exec-8] INFO  com.example.demo.controller.TuserController - logback 成功了
+2019-11-13 17:19:13.930 [spring-task-scheduler-thread-4] INFO  com.example.demo.task.pojodask - 现在时间:2019-11-13 17-19-13
+2019-11-13 17:19:13.930 [spring-task-scheduler-thread-2] INFO  com.example.demo.task.pojodask - 现在时间111:2019-11-13 17-19-13
+2019-11-13 17:19:14.183 [http-nio-8080-exec-9] INFO  c.e.demo.controller.jsonController.jsonController - 执行数据库的转换json{"userId":"cd601871-fbed-11e9-a992-52540057f105","password":"2333","phone":"222","userName":"222"}
+2019-11-13 17:19:14.183 [http-nio-8080-exec-9] INFO  c.e.demo.controller.jsonController.jsonController - 执行输出{"Response":{"responseCode":"100","desc":"测试成功"}}
+2019-11-13 17:19:14.188 [http-nio-8080-exec-10] INFO  com.example.demo.controller.TuserController - logback 成功了
+2019-11-13 17:19:14.711 [http-nio-8080-exec-1] INFO  c.e.demo.controller.jsonController.jsonController - 执行数据库的转换json{"userId":"97b22e26-fbf0-11e9-a992-52540057f105","password":"222","phone":"222","userName":"222"}
+2019-11-13 17:19:14.711 [http-nio-8080-exec-1] INFO  c.e.demo.controller.jsonController.jsonController - 执行输出{"Response":{"responseCode":"100","desc":"测试成功"}}
+2019-11-13 17:19:14.715 [http-nio-8080-exec-2] INFO  com.example.demo.controller.TuserController - logback 成功了
+2019-11-13 17:19:14.931 [spring-task-scheduler-thread-3] INFO  com.example.demo.task.pojodask - 现在时间:2019-11-13 17-19-14
+2019-11-13 17:19:14.931 [spring-task-scheduler-thread-4] INFO  com.example.demo.task.pojodask - 现在时间111:2019-11-13 17-19-14
+2019-11-13 17:19:15.404 [http-nio-8080-exec-3] INFO  c.e.demo.controller.jsonController.jsonController - 执行数据库的转换json{"userId":"8e96703e-fc7f-11e9-a992-52540057f105","password":"222","phone":"222","userName":"222"}
+2019-11-13 17:19:15.404 [http-nio-8080-exec-3] INFO  c.e.demo.controller.jsonController.jsonController - 执行输出{"Response":{"responseCode":"100","desc":"测试成功"}}
+2019-11-13 17:19:15.408 [http-nio-8080-exec-4] INFO  com.example.demo.controller.TuserController - logback 成功了
+2019-11-13 17:19:15.930 [spring-task-scheduler-thread-1] INFO  com.example.demo.task.pojodask - 现在时间:2019-11-13 17-19-15
+2019-11-13 17:19:15.930 [spring-task-scheduler-thread-3] INFO  com.example.demo.task.pojodask - 现在时间111:2019-11-13 17-19-15
+2019-11-13 17:19:16.734 [http-nio-8080-exec-5] INFO  c.e.demo.controller.jsonController.jsonController - 执行数据库的转换json{"userId":"7cbf3d6e-fbee-11e9-a992-52540057f105","password":"3333","phone":"33333","userName":"3333"}
+2019-11-13 17:19:16.734 [http-nio-8080-exec-5] INFO  c.e.demo.controller.jsonController.jsonController - 执行输出{"Response":{"responseCode":"100","desc":"测试成功"}}
+2019-11-13 17:19:16.739 [http-nio-8080-exec-6] INFO  com.example.demo.controller.TuserController - logback 成功了
+2019-11-13 17:19:16.931 [spring-task-scheduler-thread-1] INFO  com.example.demo.task.pojodask - 现在时间111:2019-11-13 17-19-16
+2019-11-13 17:19:16.931 [spring-task-scheduler-thread-2] INFO  com.example.demo.task.pojodask - 现在时间:2019-11-13 17-19-16
+2019-11-13 17:19:17.760 [http-nio-8080-exec-7] INFO  com.example.demo.controller.TuserController - logback-info 成功了
+2019-11-13 17:19:17.818 [http-nio-8080-exec-8] INFO  com.example.demo.controller.TuserController - logback 成功了
+2019-11-13 17:19:17.930 [spring-task-scheduler-thread-1] INFO  com.example.demo.task.pojodask - 现在时间111:2019-11-13 17-19-17
+2019-11-13 17:19:17.930 [spring-task-scheduler-thread-4] INFO  com.example.demo.task.pojodask - 现在时间:2019-11-13 17-19-17
+2019-11-13 17:19:18.930 [spring-task-scheduler-thread-1] INFO  com.example.demo.task.pojodask - 现在时间111:2019-11-13 17-19-18
+2019-11-13 17:19:18.930 [spring-task-scheduler-thread-3] INFO  com.example.demo.task.pojodask - 现在时间:2019-11-13 17-19-18
+2019-11-13 17:19:19.930 [spring-task-scheduler-thread-4] INFO  com.example.demo.task.pojodask - 现在时间111:2019-11-13 17-19-19
+2019-11-13 17:19:19.930 [spring-task-scheduler-thread-3] INFO  com.example.demo.task.pojodask - 现在时间:2019-11-13 17-19-19
+2019-11-13 17:19:20.931 [spring-task-scheduler-thread-4] INFO  com.example.demo.task.pojodask - 现在时间111:2019-11-13 17-19-20
+2019-11-13 17:19:20.931 [spring-task-scheduler-thread-2] INFO  com.example.demo.task.pojodask - 现在时间:2019-11-13 17-19-20
+2019-11-13 17:19:21.931 [spring-task-scheduler-thread-1] INFO  com.example.demo.task.pojodask - 现在时间:2019-11-13 17-19-21
+2019-11-13 17:19:21.931 [spring-task-scheduler-thread-4] INFO  com.example.demo.task.pojodask - 现在时间111:2019-11-13 17-19-21
+2019-11-13 17:19:22.930 [spring-task-scheduler-thread-1] INFO  com.example.demo.task.pojodask - 现在时间111:2019-11-13 17-19-22
+2019-11-13 17:19:22.930 [spring-task-scheduler-thread-3] INFO  com.example.demo.task.pojodask - 现在时间:2019-11-13 17-19-22
+2019-11-13 17:19:23.931 [spring-task-scheduler-thread-2] INFO  com.example.demo.task.pojodask - 现在时间:2019-11-13 17-19-23
+2019-11-13 17:19:23.931 [spring-task-scheduler-thread-1] INFO  com.example.demo.task.pojodask - 现在时间111:2019-11-13 17-19-23
+2019-11-13 17:20:06.395 [main] INFO  com.example.demo.DemoApplicationTests - Starting DemoApplicationTests on DESKTOP-VGJR4R4 with PID 19812 (started by ZHY in D:\IdeaProjects\demo1112)
+2019-11-13 17:20:06.396 [main] INFO  com.example.demo.DemoApplicationTests - The following profiles are active: dev
+2019-11-13 17:20:07.513 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'shiroConfig' of type [com.example.demo.shiro.ShiroConfig$$EnhancerBySpringCGLIB$$cba46e86] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-11-13 17:20:07.522 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-11-13 17:20:07.622 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'mybatis-org.mybatis.spring.boot.autoconfigure.MybatisProperties' of type [org.mybatis.spring.boot.autoconfigure.MybatisProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-11-13 17:20:07.630 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.mybatis.spring.boot.autoconfigure.MybatisAutoConfiguration' of type [org.mybatis.spring.boot.autoconfigure.MybatisAutoConfiguration$$EnhancerBySpringCGLIB$$b2f89d15] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-11-13 17:20:07.634 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.boot.autoconfigure.jdbc.DataSourceConfiguration$Hikari' of type [org.springframework.boot.autoconfigure.jdbc.DataSourceConfiguration$Hikari] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-11-13 17:20:07.645 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'spring.datasource-org.springframework.boot.autoconfigure.jdbc.DataSourceProperties' of type [org.springframework.boot.autoconfigure.jdbc.DataSourceProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-11-13 17:20:07.667 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'dataSource' of type [com.zaxxer.hikari.HikariDataSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-11-13 17:20:07.678 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.boot.autoconfigure.jdbc.DataSourceInitializerInvoker' of type [org.springframework.boot.autoconfigure.jdbc.DataSourceInitializerInvoker] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-11-13 17:20:07.913 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'sqlSessionFactory' of type [org.apache.ibatis.session.defaults.DefaultSqlSessionFactory] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-11-13 17:20:07.922 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'sqlSessionTemplate' of type [org.mybatis.spring.SqlSessionTemplate] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-11-13 17:20:07.989 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'sysUserMapper' of type [tk.mybatis.spring.mapper.MapperFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-11-13 17:20:07.992 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'sysUserMapper' of type [com.sun.proxy.$Proxy79] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-11-13 17:20:07.996 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'sysuserServiceimpl' of type [com.example.demo.service.impl.SysuserServiceimpl] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-11-13 17:20:07.998 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'userRealm' of type [com.example.demo.shiro.UserRealm] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-11-13 17:20:08.660 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'defaultWebSecurityManager' of type [org.apache.shiro.web.mgt.DefaultWebSecurityManager] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-11-13 17:20:09.127 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2019-11-13 17:20:09.612 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskScheduler - Initializing ExecutorService
+2019-11-13 17:20:09.619 [main] INFO  com.example.demo.DemoApplicationTests - Started DemoApplicationTests in 3.784 seconds (JVM running for 4.763)
+2019-11-13 17:20:09.614 [spring-task-scheduler-thread-1] INFO  com.example.demo.task.pojodask - 现在时间:2019-11-13 17-20-09
+2019-11-13 17:20:09.629 [spring-task-scheduler-thread-1] INFO  com.example.demo.task.pojodask - 现在时间111:2019-11-13 17-20-09
+2019-11-13 17:20:10.051 [SpringContextShutdownHook] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2019-11-13 17:20:26.541 [main] INFO  com.example.demo.DemoApplication - Starting DemoApplication v0.0.1-SNAPSHOT on DESKTOP-VGJR4R4 with PID 23940 (D:\IdeaProjects\demo1112\target\demo-0.0.1-SNAPSHOT.jar started by ZHY in D:\IdeaProjects\demo1112)
+2019-11-13 17:20:26.543 [main] INFO  com.example.demo.DemoApplication - The following profiles are active: dev
+2019-11-13 17:20:27.423 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'shiroConfig' of type [com.example.demo.shiro.ShiroConfig$$EnhancerBySpringCGLIB$$ad933f] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-11-13 17:20:27.429 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-11-13 17:20:27.547 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'mybatis-org.mybatis.spring.boot.autoconfigure.MybatisProperties' of type [org.mybatis.spring.boot.autoconfigure.MybatisProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-11-13 17:20:27.553 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.mybatis.spring.boot.autoconfigure.MybatisAutoConfiguration' of type [org.mybatis.spring.boot.autoconfigure.MybatisAutoConfiguration$$EnhancerBySpringCGLIB$$e801c1ce] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-11-13 17:20:27.556 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.boot.autoconfigure.jdbc.DataSourceConfiguration$Hikari' of type [org.springframework.boot.autoconfigure.jdbc.DataSourceConfiguration$Hikari] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-11-13 17:20:27.565 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'spring.datasource-org.springframework.boot.autoconfigure.jdbc.DataSourceProperties' of type [org.springframework.boot.autoconfigure.jdbc.DataSourceProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-11-13 17:20:27.588 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'dataSource' of type [com.zaxxer.hikari.HikariDataSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-11-13 17:20:27.595 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.boot.autoconfigure.jdbc.DataSourceInitializerInvoker' of type [org.springframework.boot.autoconfigure.jdbc.DataSourceInitializerInvoker] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-11-13 17:20:27.760 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'sqlSessionFactory' of type [org.apache.ibatis.session.defaults.DefaultSqlSessionFactory] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-11-13 17:20:27.766 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'sqlSessionTemplate' of type [org.mybatis.spring.SqlSessionTemplate] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-11-13 17:20:27.839 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'sysUserMapper' of type [tk.mybatis.spring.mapper.MapperFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-11-13 17:20:27.842 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'sysUserMapper' of type [com.sun.proxy.$Proxy71] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-11-13 17:20:27.846 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'sysuserServiceimpl' of type [com.example.demo.service.impl.SysuserServiceimpl] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-11-13 17:20:27.847 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'userRealm' of type [com.example.demo.shiro.UserRealm] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-11-13 17:20:28.571 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'defaultWebSecurityManager' of type [org.apache.shiro.web.mgt.DefaultWebSecurityManager] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-11-13 17:20:28.790 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2019-11-13 17:20:28.799 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2019-11-13 17:20:28.800 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2019-11-13 17:20:28.800 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.27]
+2019-11-13 17:20:28.801 [main] INFO  org.apache.catalina.core.AprLifecycleListener - Loaded APR based Apache Tomcat Native library [1.2.23] using APR version [1.7.0].
+2019-11-13 17:20:28.801 [main] INFO  org.apache.catalina.core.AprLifecycleListener - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2019-11-13 17:20:28.801 [main] INFO  org.apache.catalina.core.AprLifecycleListener - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2019-11-13 17:20:28.804 [main] INFO  org.apache.catalina.core.AprLifecycleListener - OpenSSL successfully initialized [OpenSSL 1.1.1c  28 May 2019]
+2019-11-13 17:20:28.858 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2019-11-13 17:20:28.858 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 2248 ms
+2019-11-13 17:20:29.182 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2019-11-13 17:20:29.426 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskScheduler - Initializing ExecutorService
+2019-11-13 17:20:29.429 [spring-task-scheduler-thread-1] INFO  com.example.demo.task.pojodask - 现在时间111:2019-11-13 17-20-29
+2019-11-13 17:20:29.430 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2019-11-13 17:20:29.429 [spring-task-scheduler-thread-1] INFO  com.example.demo.task.pojodask - 现在时间:2019-11-13 17-20-29
+2019-11-13 17:20:29.457 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2019-11-13 17:20:29.459 [main] INFO  com.example.demo.DemoApplication - Started DemoApplication in 3.473 seconds (JVM running for 3.883)
+2019-11-13 17:20:30.429 [spring-task-scheduler-thread-2] INFO  com.example.demo.task.pojodask - 现在时间111:2019-11-13 17-20-30
+2019-11-13 17:20:30.429 [spring-task-scheduler-thread-3] INFO  com.example.demo.task.pojodask - 现在时间:2019-11-13 17-20-30
+2019-11-13 17:20:31.429 [spring-task-scheduler-thread-1] INFO  com.example.demo.task.pojodask - 现在时间111:2019-11-13 17-20-31
+2019-11-13 17:20:31.429 [spring-task-scheduler-thread-1] INFO  com.example.demo.task.pojodask - 现在时间:2019-11-13 17-20-31
+2019-11-13 17:20:32.429 [spring-task-scheduler-thread-3] INFO  com.example.demo.task.pojodask - 现在时间111:2019-11-13 17-20-32
+2019-11-13 17:20:32.429 [spring-task-scheduler-thread-3] INFO  com.example.demo.task.pojodask - 现在时间:2019-11-13 17-20-32
+2019-11-13 17:20:33.430 [spring-task-scheduler-thread-2] INFO  com.example.demo.task.pojodask - 现在时间:2019-11-13 17-20-33
+2019-11-13 17:20:33.431 [spring-task-scheduler-thread-1] INFO  com.example.demo.task.pojodask - 现在时间111:2019-11-13 17-20-33
+2019-11-13 17:20:34.429 [spring-task-scheduler-thread-4] INFO  com.example.demo.task.pojodask - 现在时间111:2019-11-13 17-20-34
+2019-11-13 17:20:34.429 [spring-task-scheduler-thread-2] INFO  com.example.demo.task.pojodask - 现在时间:2019-11-13 17-20-34
+2019-11-13 17:24:39.727 [main] INFO  com.example.demo.DemoApplication - Starting DemoApplication v0.0.1-SNAPSHOT on DESKTOP-VGJR4R4 with PID 23660 (D:\IdeaProjects\demo1112\target\demo-0.0.1-SNAPSHOT.jar started by ZHY in D:\IdeaProjects\demo1112)
+2019-11-13 17:24:39.730 [main] INFO  com.example.demo.DemoApplication - The following profiles are active: dev
+2019-11-13 17:24:40.625 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'shiroConfig' of type [com.example.demo.shiro.ShiroConfig$$EnhancerBySpringCGLIB$$bb82aa0e] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-11-13 17:24:40.631 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-11-13 17:24:40.731 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'mybatis-org.mybatis.spring.boot.autoconfigure.MybatisProperties' of type [org.mybatis.spring.boot.autoconfigure.MybatisProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-11-13 17:24:40.737 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.mybatis.spring.boot.autoconfigure.MybatisAutoConfiguration' of type [org.mybatis.spring.boot.autoconfigure.MybatisAutoConfiguration$$EnhancerBySpringCGLIB$$a2d6d89d] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-11-13 17:24:40.741 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.boot.autoconfigure.jdbc.DataSourceConfiguration$Hikari' of type [org.springframework.boot.autoconfigure.jdbc.DataSourceConfiguration$Hikari] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-11-13 17:24:40.748 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'spring.datasource-org.springframework.boot.autoconfigure.jdbc.DataSourceProperties' of type [org.springframework.boot.autoconfigure.jdbc.DataSourceProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-11-13 17:24:40.769 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'dataSource' of type [com.zaxxer.hikari.HikariDataSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-11-13 17:24:40.777 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.boot.autoconfigure.jdbc.DataSourceInitializerInvoker' of type [org.springframework.boot.autoconfigure.jdbc.DataSourceInitializerInvoker] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-11-13 17:24:40.942 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'sqlSessionFactory' of type [org.apache.ibatis.session.defaults.DefaultSqlSessionFactory] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-11-13 17:24:40.947 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'sqlSessionTemplate' of type [org.mybatis.spring.SqlSessionTemplate] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-11-13 17:24:41.016 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'sysUserMapper' of type [tk.mybatis.spring.mapper.MapperFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-11-13 17:24:41.020 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'sysUserMapper' of type [com.sun.proxy.$Proxy71] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-11-13 17:24:41.025 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'sysuserServiceimpl' of type [com.example.demo.service.impl.SysuserServiceimpl] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-11-13 17:24:41.025 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'userRealm' of type [com.example.demo.shiro.UserRealm] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-11-13 17:24:41.761 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'defaultWebSecurityManager' of type [org.apache.shiro.web.mgt.DefaultWebSecurityManager] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-11-13 17:24:42.186 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2019-11-13 17:24:42.196 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2019-11-13 17:24:42.197 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2019-11-13 17:24:42.197 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.27]
+2019-11-13 17:24:42.198 [main] INFO  org.apache.catalina.core.AprLifecycleListener - Loaded APR based Apache Tomcat Native library [1.2.23] using APR version [1.7.0].
+2019-11-13 17:24:42.198 [main] INFO  org.apache.catalina.core.AprLifecycleListener - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2019-11-13 17:24:42.199 [main] INFO  org.apache.catalina.core.AprLifecycleListener - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2019-11-13 17:24:42.201 [main] INFO  org.apache.catalina.core.AprLifecycleListener - OpenSSL successfully initialized [OpenSSL 1.1.1c  28 May 2019]
+2019-11-13 17:24:42.264 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2019-11-13 17:24:42.264 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 2483 ms
+2019-11-13 17:24:42.723 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2019-11-13 17:24:43.238 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskScheduler - Initializing ExecutorService
+2019-11-13 17:24:43.241 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2019-11-13 17:24:43.267 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2019-11-13 17:24:43.270 [main] INFO  com.example.demo.DemoApplication - Started DemoApplication in 4.197 seconds (JVM running for 4.643)
+2019-11-13 17:24:43.274 [spring-task-scheduler-thread-1] INFO  com.example.demo.task.pojodask - 现在时间111:2019-11-13 17-24-43
+2019-11-13 17:24:43.274 [spring-task-scheduler-thread-1] INFO  com.example.demo.task.pojodask - 现在时间:2019-11-13 17-24-43
+2019-11-13 17:24:44.242 [spring-task-scheduler-thread-3] INFO  com.example.demo.task.pojodask - 现在时间:2019-11-13 17-24-44
+2019-11-13 17:24:44.242 [spring-task-scheduler-thread-2] INFO  com.example.demo.task.pojodask - 现在时间111:2019-11-13 17-24-44
+2019-11-13 17:24:45.243 [spring-task-scheduler-thread-3] INFO  com.example.demo.task.pojodask - 现在时间:2019-11-13 17-24-45
+2019-11-13 17:24:45.244 [spring-task-scheduler-thread-1] INFO  com.example.demo.task.pojodask - 现在时间111:2019-11-13 17-24-45
+2019-11-13 17:24:45.260 [main] INFO  com.example.demo.DemoApplication - Starting DemoApplication on DESKTOP-VGJR4R4 with PID 18788 (D:\IdeaProjects\demo1112\target\classes started by ZHY in D:\IdeaProjects\demo1112)
+2019-11-13 17:24:45.265 [main] INFO  com.example.demo.DemoApplication - The following profiles are active: dev
+2019-11-13 17:24:45.999 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'shiroConfig' of type [com.example.demo.shiro.ShiroConfig$$EnhancerBySpringCGLIB$$c397e5b1] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-11-13 17:24:46.004 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-11-13 17:24:46.081 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'mybatis-org.mybatis.spring.boot.autoconfigure.MybatisProperties' of type [org.mybatis.spring.boot.autoconfigure.MybatisProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-11-13 17:24:46.086 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.mybatis.spring.boot.autoconfigure.MybatisAutoConfiguration' of type [org.mybatis.spring.boot.autoconfigure.MybatisAutoConfiguration$$EnhancerBySpringCGLIB$$aaec1440] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-11-13 17:24:46.089 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.boot.autoconfigure.jdbc.DataSourceConfiguration$Hikari' of type [org.springframework.boot.autoconfigure.jdbc.DataSourceConfiguration$Hikari] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-11-13 17:24:46.093 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'spring.datasource-org.springframework.boot.autoconfigure.jdbc.DataSourceProperties' of type [org.springframework.boot.autoconfigure.jdbc.DataSourceProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-11-13 17:24:46.108 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'dataSource' of type [com.zaxxer.hikari.HikariDataSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-11-13 17:24:46.115 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.boot.autoconfigure.jdbc.DataSourceInitializerInvoker' of type [org.springframework.boot.autoconfigure.jdbc.DataSourceInitializerInvoker] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-11-13 17:24:46.239 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'sqlSessionFactory' of type [org.apache.ibatis.session.defaults.DefaultSqlSessionFactory] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-11-13 17:24:46.242 [spring-task-scheduler-thread-3] INFO  com.example.demo.task.pojodask - 现在时间:2019-11-13 17-24-46
+2019-11-13 17:24:46.242 [spring-task-scheduler-thread-4] INFO  com.example.demo.task.pojodask - 现在时间111:2019-11-13 17-24-46
+2019-11-13 17:24:46.243 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'sqlSessionTemplate' of type [org.mybatis.spring.SqlSessionTemplate] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-11-13 17:24:46.296 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'sysUserMapper' of type [tk.mybatis.spring.mapper.MapperFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-11-13 17:24:46.299 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'sysUserMapper' of type [com.sun.proxy.$Proxy73] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-11-13 17:24:46.302 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'sysuserServiceimpl' of type [com.example.demo.service.impl.SysuserServiceimpl] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-11-13 17:24:46.303 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'userRealm' of type [com.example.demo.shiro.UserRealm] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-11-13 17:24:46.662 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'defaultWebSecurityManager' of type [org.apache.shiro.web.mgt.DefaultWebSecurityManager] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-11-13 17:24:46.844 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2019-11-13 17:24:46.850 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2019-11-13 17:24:46.851 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2019-11-13 17:24:46.851 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.27]
+2019-11-13 17:24:46.852 [main] INFO  org.apache.catalina.core.AprLifecycleListener - Loaded APR based Apache Tomcat Native library [1.2.23] using APR version [1.7.0].
+2019-11-13 17:24:46.852 [main] INFO  org.apache.catalina.core.AprLifecycleListener - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2019-11-13 17:24:46.852 [main] INFO  org.apache.catalina.core.AprLifecycleListener - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2019-11-13 17:24:46.854 [main] INFO  org.apache.catalina.core.AprLifecycleListener - OpenSSL successfully initialized [OpenSSL 1.1.1c  28 May 2019]
+2019-11-13 17:24:46.923 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2019-11-13 17:24:46.923 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1604 ms
+2019-11-13 17:24:47.158 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2019-11-13 17:24:47.242 [spring-task-scheduler-thread-3] INFO  com.example.demo.task.pojodask - 现在时间:2019-11-13 17-24-47
+2019-11-13 17:24:47.242 [spring-task-scheduler-thread-2] INFO  com.example.demo.task.pojodask - 现在时间111:2019-11-13 17-24-47
+2019-11-13 17:24:47.333 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskScheduler - Initializing ExecutorService
+2019-11-13 17:24:47.334 [spring-task-scheduler-thread-2] INFO  com.example.demo.task.pojodask - 现在时间111:2019-11-13 17-24-47
+2019-11-13 17:24:47.334 [spring-task-scheduler-thread-1] INFO  com.example.demo.task.pojodask - 现在时间:2019-11-13 17-24-47
+2019-11-13 17:24:47.336 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2019-11-13 17:24:47.346 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Pausing ProtocolHandler ["http-nio-8080"]
+2019-11-13 17:24:47.346 [main] INFO  org.apache.catalina.core.StandardService - Stopping service [Tomcat]
+2019-11-13 17:24:47.349 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Stopping ProtocolHandler ["http-nio-8080"]
+2019-11-13 17:24:47.349 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Destroying ProtocolHandler ["http-nio-8080"]
+2019-11-13 17:24:47.351 [main] INFO  o.s.b.a.l.ConditionEvaluationReportLoggingListener - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2019-11-13 17:24:47.356 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2019-11-13 17:24:48.242 [spring-task-scheduler-thread-3] INFO  com.example.demo.task.pojodask - 现在时间:2019-11-13 17-24-48
+2019-11-13 17:24:48.242 [spring-task-scheduler-thread-1] INFO  com.example.demo.task.pojodask - 现在时间111:2019-11-13 17-24-48
+2019-11-13 17:24:49.241 [spring-task-scheduler-thread-3] INFO  com.example.demo.task.pojodask - 现在时间:2019-11-13 17-24-49
+2019-11-13 17:24:49.241 [spring-task-scheduler-thread-4] INFO  com.example.demo.task.pojodask - 现在时间111:2019-11-13 17-24-49
+2019-11-13 17:24:50.241 [spring-task-scheduler-thread-2] INFO  com.example.demo.task.pojodask - 现在时间111:2019-11-13 17-24-50
+2019-11-13 17:24:50.241 [spring-task-scheduler-thread-3] INFO  com.example.demo.task.pojodask - 现在时间:2019-11-13 17-24-50
+2019-11-13 17:24:51.242 [spring-task-scheduler-thread-1] INFO  com.example.demo.task.pojodask - 现在时间111:2019-11-13 17-24-51
+2019-11-13 17:24:51.242 [spring-task-scheduler-thread-2] INFO  com.example.demo.task.pojodask - 现在时间:2019-11-13 17-24-51
+2019-11-13 17:24:52.242 [spring-task-scheduler-thread-4] INFO  com.example.demo.task.pojodask - 现在时间111:2019-11-13 17-24-52
+2019-11-13 17:24:52.242 [spring-task-scheduler-thread-1] INFO  com.example.demo.task.pojodask - 现在时间:2019-11-13 17-24-52
+2019-11-13 17:24:53.242 [spring-task-scheduler-thread-4] INFO  com.example.demo.task.pojodask - 现在时间:2019-11-13 17-24-53
+2019-11-13 17:24:53.242 [spring-task-scheduler-thread-3] INFO  com.example.demo.task.pojodask - 现在时间111:2019-11-13 17-24-53
+2019-11-13 17:24:54.242 [spring-task-scheduler-thread-2] INFO  com.example.demo.task.pojodask - 现在时间111:2019-11-13 17-24-54
+2019-11-13 17:24:54.242 [spring-task-scheduler-thread-4] INFO  com.example.demo.task.pojodask - 现在时间:2019-11-13 17-24-54
+2019-11-13 17:24:55.241 [spring-task-scheduler-thread-1] INFO  com.example.demo.task.pojodask - 现在时间111:2019-11-13 17-24-55
+2019-11-13 17:24:55.241 [spring-task-scheduler-thread-2] INFO  com.example.demo.task.pojodask - 现在时间:2019-11-13 17-24-55
+2019-11-13 17:24:56.243 [spring-task-scheduler-thread-1] INFO  com.example.demo.task.pojodask - 现在时间:2019-11-13 17-24-56
+2019-11-13 17:24:56.243 [spring-task-scheduler-thread-3] INFO  com.example.demo.task.pojodask - 现在时间111:2019-11-13 17-24-56
+2019-11-13 17:24:57.241 [spring-task-scheduler-thread-4] INFO  com.example.demo.task.pojodask - 现在时间111:2019-11-13 17-24-57
+2019-11-13 17:24:57.241 [spring-task-scheduler-thread-1] INFO  com.example.demo.task.pojodask - 现在时间:2019-11-13 17-24-57
+2019-11-13 17:25:18.173 [main] INFO  com.example.demo.DemoApplication - Starting DemoApplication on DESKTOP-VGJR4R4 with PID 24984 (D:\IdeaProjects\demo1112\target\classes started by ZHY in D:\IdeaProjects\demo1112)
+2019-11-13 17:25:18.174 [main] INFO  com.example.demo.DemoApplication - The following profiles are active: dev
+2019-11-13 17:25:18.888 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'shiroConfig' of type [com.example.demo.shiro.ShiroConfig$$EnhancerBySpringCGLIB$$d6788ecb] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-11-13 17:25:18.894 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-11-13 17:25:18.967 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'mybatis-org.mybatis.spring.boot.autoconfigure.MybatisProperties' of type [org.mybatis.spring.boot.autoconfigure.MybatisProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-11-13 17:25:18.972 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.mybatis.spring.boot.autoconfigure.MybatisAutoConfiguration' of type [org.mybatis.spring.boot.autoconfigure.MybatisAutoConfiguration$$EnhancerBySpringCGLIB$$bdccbd5a] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-11-13 17:25:18.975 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.boot.autoconfigure.jdbc.DataSourceConfiguration$Hikari' of type [org.springframework.boot.autoconfigure.jdbc.DataSourceConfiguration$Hikari] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-11-13 17:25:18.980 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'spring.datasource-org.springframework.boot.autoconfigure.jdbc.DataSourceProperties' of type [org.springframework.boot.autoconfigure.jdbc.DataSourceProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-11-13 17:25:18.994 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'dataSource' of type [com.zaxxer.hikari.HikariDataSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-11-13 17:25:18.999 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.boot.autoconfigure.jdbc.DataSourceInitializerInvoker' of type [org.springframework.boot.autoconfigure.jdbc.DataSourceInitializerInvoker] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-11-13 17:25:19.120 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'sqlSessionFactory' of type [org.apache.ibatis.session.defaults.DefaultSqlSessionFactory] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-11-13 17:25:19.124 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'sqlSessionTemplate' of type [org.mybatis.spring.SqlSessionTemplate] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-11-13 17:25:19.177 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'sysUserMapper' of type [tk.mybatis.spring.mapper.MapperFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-11-13 17:25:19.180 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'sysUserMapper' of type [com.sun.proxy.$Proxy73] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-11-13 17:25:19.183 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'sysuserServiceimpl' of type [com.example.demo.service.impl.SysuserServiceimpl] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-11-13 17:25:19.183 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'userRealm' of type [com.example.demo.shiro.UserRealm] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-11-13 17:25:19.538 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'defaultWebSecurityManager' of type [org.apache.shiro.web.mgt.DefaultWebSecurityManager] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-11-13 17:25:19.709 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2019-11-13 17:25:19.715 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2019-11-13 17:25:19.716 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2019-11-13 17:25:19.716 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.27]
+2019-11-13 17:25:19.717 [main] INFO  org.apache.catalina.core.AprLifecycleListener - Loaded APR based Apache Tomcat Native library [1.2.23] using APR version [1.7.0].
+2019-11-13 17:25:19.717 [main] INFO  org.apache.catalina.core.AprLifecycleListener - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2019-11-13 17:25:19.717 [main] INFO  org.apache.catalina.core.AprLifecycleListener - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2019-11-13 17:25:19.720 [main] INFO  org.apache.catalina.core.AprLifecycleListener - OpenSSL successfully initialized [OpenSSL 1.1.1c  28 May 2019]
+2019-11-13 17:25:19.782 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2019-11-13 17:25:19.782 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1560 ms
+2019-11-13 17:25:20.007 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2019-11-13 17:25:20.191 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskScheduler - Initializing ExecutorService
+2019-11-13 17:25:20.193 [spring-task-scheduler-thread-2] INFO  com.example.demo.task.pojodask - 现在时间:2019-11-13 17-25-20
+2019-11-13 17:25:20.193 [spring-task-scheduler-thread-1] INFO  com.example.demo.task.pojodask - 现在时间111:2019-11-13 17-25-20
+2019-11-13 17:25:20.195 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2019-11-13 17:25:20.212 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2019-11-13 17:25:20.214 [main] INFO  com.example.demo.DemoApplication - Started DemoApplication in 2.521 seconds (JVM running for 3.241)
+2019-11-13 17:25:21.194 [spring-task-scheduler-thread-4] INFO  com.example.demo.task.pojodask - 现在时间:2019-11-13 17-25-21
+2019-11-13 17:25:21.194 [spring-task-scheduler-thread-2] INFO  com.example.demo.task.pojodask - 现在时间111:2019-11-13 17-25-21
+2019-11-13 17:25:22.193 [spring-task-scheduler-thread-1] INFO  com.example.demo.task.pojodask - 现在时间111:2019-11-13 17-25-22
+2019-11-13 17:25:22.193 [spring-task-scheduler-thread-4] INFO  com.example.demo.task.pojodask - 现在时间:2019-11-13 17-25-22
+2019-11-13 17:25:23.193 [spring-task-scheduler-thread-1] INFO  com.example.demo.task.pojodask - 现在时间:2019-11-13 17-25-23
+2019-11-13 17:25:23.193 [spring-task-scheduler-thread-3] INFO  com.example.demo.task.pojodask - 现在时间111:2019-11-13 17-25-23
+2019-11-13 17:25:24.194 [spring-task-scheduler-thread-3] INFO  com.example.demo.task.pojodask - 现在时间:2019-11-13 17-25-24
+2019-11-13 17:25:24.194 [spring-task-scheduler-thread-2] INFO  com.example.demo.task.pojodask - 现在时间111:2019-11-13 17-25-24
+2019-11-13 17:25:25.193 [spring-task-scheduler-thread-3] INFO  com.example.demo.task.pojodask - 现在时间:2019-11-13 17-25-25
+2019-11-13 17:25:25.193 [spring-task-scheduler-thread-4] INFO  com.example.demo.task.pojodask - 现在时间111:2019-11-13 17-25-25
+2019-11-13 17:25:26.193 [spring-task-scheduler-thread-3] INFO  com.example.demo.task.pojodask - 现在时间:2019-11-13 17-25-26
+2019-11-13 17:25:26.193 [spring-task-scheduler-thread-1] INFO  com.example.demo.task.pojodask - 现在时间111:2019-11-13 17-25-26
+2019-11-13 17:25:27.193 [spring-task-scheduler-thread-3] INFO  com.example.demo.task.pojodask - 现在时间:2019-11-13 17-25-27
+2019-11-13 17:25:27.193 [spring-task-scheduler-thread-2] INFO  com.example.demo.task.pojodask - 现在时间111:2019-11-13 17-25-27
+2019-11-13 17:25:28.193 [spring-task-scheduler-thread-3] INFO  com.example.demo.task.pojodask - 现在时间:2019-11-13 17-25-28
+2019-11-13 17:25:28.193 [spring-task-scheduler-thread-4] INFO  com.example.demo.task.pojodask - 现在时间111:2019-11-13 17-25-28
+2019-11-13 17:25:29.194 [spring-task-scheduler-thread-3] INFO  com.example.demo.task.pojodask - 现在时间:2019-11-13 17-25-29
+2019-11-13 17:25:29.194 [spring-task-scheduler-thread-1] INFO  com.example.demo.task.pojodask - 现在时间111:2019-11-13 17-25-29
+2019-11-13 17:25:30.194 [spring-task-scheduler-thread-3] INFO  com.example.demo.task.pojodask - 现在时间:2019-11-13 17-25-30
+2019-11-13 17:25:30.194 [spring-task-scheduler-thread-2] INFO  com.example.demo.task.pojodask - 现在时间111:2019-11-13 17-25-30
+2019-11-13 17:25:31.193 [spring-task-scheduler-thread-3] INFO  com.example.demo.task.pojodask - 现在时间:2019-11-13 17-25-31
+2019-11-13 17:25:31.193 [spring-task-scheduler-thread-4] INFO  com.example.demo.task.pojodask - 现在时间111:2019-11-13 17-25-31
+2019-11-13 17:25:32.194 [spring-task-scheduler-thread-4] INFO  com.example.demo.task.pojodask - 现在时间111:2019-11-13 17-25-32
+2019-11-13 17:25:32.194 [spring-task-scheduler-thread-2] INFO  com.example.demo.task.pojodask - 现在时间:2019-11-13 17-25-32
+2019-11-13 17:25:33.193 [spring-task-scheduler-thread-4] INFO  com.example.demo.task.pojodask - 现在时间:2019-11-13 17-25-33
+2019-11-13 17:25:33.193 [spring-task-scheduler-thread-1] INFO  com.example.demo.task.pojodask - 现在时间111:2019-11-13 17-25-33
+2019-11-13 17:25:34.193 [spring-task-scheduler-thread-4] INFO  com.example.demo.task.pojodask - 现在时间:2019-11-13 17-25-34
+2019-11-13 17:25:34.193 [spring-task-scheduler-thread-3] INFO  com.example.demo.task.pojodask - 现在时间111:2019-11-13 17-25-34
+2019-11-13 17:25:35.193 [spring-task-scheduler-thread-4] INFO  com.example.demo.task.pojodask - 现在时间:2019-11-13 17-25-35
+2019-11-13 17:25:35.193 [spring-task-scheduler-thread-2] INFO  com.example.demo.task.pojodask - 现在时间111:2019-11-13 17-25-35
+2019-11-13 17:25:36.192 [spring-task-scheduler-thread-1] INFO  com.example.demo.task.pojodask - 现在时间111:2019-11-13 17-25-36
+2019-11-13 17:25:36.192 [spring-task-scheduler-thread-1] INFO  com.example.demo.task.pojodask - 现在时间:2019-11-13 17-25-36
+2019-11-13 17:25:37.194 [spring-task-scheduler-thread-3] INFO  com.example.demo.task.pojodask - 现在时间:2019-11-13 17-25-37
+2019-11-13 17:25:37.194 [spring-task-scheduler-thread-2] INFO  com.example.demo.task.pojodask - 现在时间111:2019-11-13 17-25-37
+2019-11-13 17:25:38.194 [spring-task-scheduler-thread-3] INFO  com.example.demo.task.pojodask - 现在时间:2019-11-13 17-25-38
+2019-11-13 17:25:38.194 [spring-task-scheduler-thread-4] INFO  com.example.demo.task.pojodask - 现在时间111:2019-11-13 17-25-38
+2019-11-13 17:25:39.194 [spring-task-scheduler-thread-1] INFO  com.example.demo.task.pojodask - 现在时间111:2019-11-13 17-25-39
+2019-11-13 17:25:39.194 [spring-task-scheduler-thread-3] INFO  com.example.demo.task.pojodask - 现在时间:2019-11-13 17-25-39
+2019-11-13 17:25:40.193 [spring-task-scheduler-thread-2] INFO  com.example.demo.task.pojodask - 现在时间111:2019-11-13 17-25-40
+2019-11-13 17:25:40.193 [spring-task-scheduler-thread-1] INFO  com.example.demo.task.pojodask - 现在时间:2019-11-13 17-25-40
+2019-11-13 17:25:41.194 [spring-task-scheduler-thread-4] INFO  com.example.demo.task.pojodask - 现在时间111:2019-11-13 17-25-41
+2019-11-13 17:25:41.194 [spring-task-scheduler-thread-2] INFO  com.example.demo.task.pojodask - 现在时间:2019-11-13 17-25-41
+2019-11-13 17:25:42.194 [spring-task-scheduler-thread-4] INFO  com.example.demo.task.pojodask - 现在时间:2019-11-13 17-25-42
+2019-11-13 17:25:42.194 [spring-task-scheduler-thread-3] INFO  com.example.demo.task.pojodask - 现在时间111:2019-11-13 17-25-42
