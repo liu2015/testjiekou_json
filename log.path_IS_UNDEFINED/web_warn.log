@@ -7,3 +7,11 @@
 2019-11-13 09:33:02.296 [main] WARN  org.mybatis.spring.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[com.example.demo]' package. Please check your configuration.
 2019-11-13 09:42:24.979 [main] WARN  org.mybatis.spring.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[com.example.demo]' package. Please check your configuration.
 2019-11-13 09:45:36.423 [main] WARN  org.mybatis.spring.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[com.example.demo]' package. Please check your configuration.
+2019-11-13 10:12:41.232 [main] WARN  org.mybatis.spring.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[com.example.demo]' package. Please check your configuration.
+2019-11-13 10:15:41.828 [main] WARN  org.mybatis.spring.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[com.example.demo.task, com.example.demo]' package. Please check your configuration.
+2019-11-13 10:22:20.041 [main] WARN  org.mybatis.spring.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[com.example.demo]' package. Please check your configuration.
+2019-11-13 10:23:21.272 [main] WARN  org.mybatis.spring.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[com.example.demo]' package. Please check your configuration.
+2019-11-13 10:23:59.175 [main] WARN  org.mybatis.spring.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[com.example.demo]' package. Please check your configuration.
+2019-11-13 10:24:42.755 [main] WARN  org.mybatis.spring.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[com.example.demo]' package. Please check your configuration.
+2019-11-13 10:29:32.240 [main] WARN  org.mybatis.spring.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[com.example.demo]' package. Please check your configuration.
+2019-11-13 10:41:55.624 [main] WARN  org.mybatis.spring.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[com.example.demo]' package. Please check your configuration.
