@@ -71,6 +71,7 @@ public void run1(){
         JsonObject object=new JsonParser().parse(jsonString).getAsJsonObject();
         Actor actor=new Gson().fromJson(object,Actor.class);
         System.out.println("姓名");
+        System.out.println(""+actor.getName());
         System.out.println(""+object.get("name"));
         System.out.println("fans");
         for (Map map:actor.getFans())
