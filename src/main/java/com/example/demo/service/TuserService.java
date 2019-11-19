@@ -33,4 +33,7 @@ public interface TuserService {
 
     public int updateByPrimaryKey(TUser user);
     public List<TUser> select(TUser user);
+
+    public List<TUser> getlist(int pageNum,int pageSize);
+
 }

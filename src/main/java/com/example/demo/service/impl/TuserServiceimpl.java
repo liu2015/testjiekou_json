@@ -3,6 +3,7 @@ package com.example.demo.service.impl;
 import com.example.demo.entity.TUser;
 import com.example.demo.mapper.TUserMapper;
 import com.example.demo.service.TuserService;
+import com.github.pagehelper.PageHelper;
 import org.apache.ibatis.annotations.SelectProvider;
 import org.apache.ibatis.annotations.UpdateProvider;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -125,6 +126,14 @@ public class TuserServiceimpl implements TuserService {
     @SelectProvider(type=BaseSelectProvider.class, method="dynamicSQL")
     public List<TUser> select(TUser user) {
         return tUserMapper.select( user );
+    }
+
+    @Override
+    public List<TUser> getlist(int pageNum, int pageSize) {
+
+        PageHelper.startPage(pageNum,pageSize);
+        List<TUser> tylist=tUserMapper.selectAll();
+        return tylist;
     }
 
 

@@ -3,14 +3,17 @@ package com.example.demo.controller;
 import com.example.demo.Ulit.jsoncli;
 import com.example.demo.entity.TUser;
 import com.example.demo.service.TuserService;
+import com.github.pagehelper.PageInfo;
 import okhttp3.Response;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
+import org.springframework.ui.Model;
 import org.springframework.ui.ModelMap;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RequestParam;
 
 import java.io.IOException;
 import java.util.List;
@@ -158,6 +161,18 @@ public class TuserController {
     public String inert(TUser user12){
         tuserService.inert1(user12  );
         return "redirect:/list";
+    }
+
+    @RequestMapping("/listfy1")
+    public String listfy(ModelMap map1, @RequestParam(defaultValue = "1",value = "pageNum") Integer pageNum){
+
+        List<TUser> list=tuserService.getlist(pageNum,5);
+        //格式化分页
+        PageInfo<TUser> pageInfo=new PageInfo<TUser>(list);
+
+
+        map1.addAttribute("pageInfo",pageInfo);
+        return "listfy";
     }
 
 }

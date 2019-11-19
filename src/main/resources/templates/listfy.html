@@ -27,7 +27,7 @@
         </tr>
         </thead>
         <tbody>
-        <tr th:each="user:${all}">
+        <tr th:each="user:${pageInfo.list}">
             <td th:text="${user.userId}"></td>
             <td th:text="${user.userName}"></td>
             <td th:text="${user.password}"></td>
@@ -39,11 +39,17 @@
         </tr>
         </tbody>
     </table>
+    <div class="panel panel-default">
+    <p>当前 <span th:text="${pageInfo.pageNum}"></span> 页,总 <span th:text="${pageInfo.pages}"></span> 页,共 <span th:text="${pageInfo.total}"></span> 条记录</p>
+    <a th:href="@{/listfy1}">首页</a>
+    <a th:href="@{/listfy1(pageNum=${pageInfo.hasPreviousPage}?${pageInfo.prePage}:1)}">上一页</a>
+    <a th:href="@{/listfy1(pageNum=${pageInfo.hasNextPage}?${pageInfo.nextPage}:${pageInfo.pages})}">下一页</a>
+    <a th:href="@{/listfy1(pageNum=${pageInfo.pages})}">尾页</a>
+</div>
 </div>
 <a class="btn btn-info" href="/toAdd" role="button">add</a>
 &nbsp;&nbsp;&nbsp;
 <a class="btn btn-info" href="/search" role="button">seach</a>
-<a class="btn btn-info" href="/listfy1" role="button">分页</a>
 
 
 
