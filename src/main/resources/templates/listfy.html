@@ -40,11 +40,11 @@
         </tbody>
     </table>
     <div class="panel panel-default">
-    <p>当前 <span th:text="${pageInfo.pageNum}"></span> 页,总 <span th:text="${pageInfo.pages}"></span> 页,共 <span th:text="${pageInfo.total}"></span> 条记录</p>
-    <a th:href="@{/listfy1}">首页</a>
-    <a th:href="@{/listfy1(pageNum=${pageInfo.hasPreviousPage}?${pageInfo.prePage}:1)}">上一页</a>
-    <a th:href="@{/listfy1(pageNum=${pageInfo.hasNextPage}?${pageInfo.nextPage}:${pageInfo.pages})}">下一页</a>
-    <a th:href="@{/listfy1(pageNum=${pageInfo.pages})}">尾页</a>
+    <p class="btn btn-info">当前 <span th:text="${pageInfo.pageNum}" ></span> 页,总 <span th:text="${pageInfo.pages}"></span> 页,共 <span th:text="${pageInfo.total}"></span> 条记录</p>
+    <a th:href="@{/listfy1}" class="btn btn-info">首页</a>
+    <a th:href="@{/listfy1(pageNum=${pageInfo.hasPreviousPage}?${pageInfo.prePage}:1)}" class="btn btn-info">上一页</a>
+    <a th:href="@{/listfy1(pageNum=${pageInfo.hasNextPage}?${pageInfo.nextPage}:${pageInfo.pages})}" class="btn btn-info">下一页</a>
+    <a th:href="@{/listfy1(pageNum=${pageInfo.pages})}" class="btn btn-info">尾页</a>
 </div>
 </div>
 <a class="btn btn-info" href="/toAdd" role="button">add</a>

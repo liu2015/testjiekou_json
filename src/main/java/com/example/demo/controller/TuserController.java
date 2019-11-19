@@ -166,6 +166,8 @@ public class TuserController {
     @RequestMapping("/listfy1")
     public String listfy(ModelMap map1, @RequestParam(defaultValue = "1",value = "pageNum") Integer pageNum){
 
+        //service 实现了分页插件 PageHelper.startPage(pageNum,pageSize);
+
         List<TUser> list=tuserService.getlist(pageNum,5);
         //格式化分页
         PageInfo<TUser> pageInfo=new PageInfo<TUser>(list);
