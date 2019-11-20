@@ -168,7 +168,7 @@ public class TuserController {
 
         //service 实现了分页插件 PageHelper.startPage(pageNum,pageSize);
 
-        List<TUser> list=tuserService.getlist(pageNum,5);
+        List<TUser> list=tuserService.getlist(pageNum,10);
         //格式化分页
         PageInfo<TUser> pageInfo=new PageInfo<TUser>(list);
 
