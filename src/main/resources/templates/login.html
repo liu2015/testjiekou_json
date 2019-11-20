@@ -36,7 +36,10 @@
 
 </head>
 
-<body  style="background-image:url(/static/img/motianlunjpg.jpg)" background="/static/img/motianlunjpg.jpg">
+<body >
+<!--<img src="../static/img/bg.jpg" height="100%" width="100%"/>-->
+<!--背景图片内容, 这个是用img的背景, 这里不用加 static 目录引用-->
+<img th:src="@{/img/bg.jpg}" height="100%" width="100%">
 <div class ="container">
     <div class="login-panel">
 <form action="tologin">

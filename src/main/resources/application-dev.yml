@@ -6,6 +6,12 @@ spring:
     username: liu
     password: Liu1988226
     url: jdbc:mysql://cdb-kx7bfwy2.bj.tencentcdb.com:10187/springJpa?useUnicode=true&characterEncoding=utf-8&useSSL=true&serverTimezone=UTC
+  thymeleaf:
+    cache: false
+    mode: LEGACYHTML5
+    encoding: utf-8
+
+
 #logging:
 #  config: classpath:logback-spring.xml
 #  level:
