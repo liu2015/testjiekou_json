@@ -33,6 +33,7 @@ logging:
 
 mybatis:
   configuration:
+#    这个是终端打印出sql语句
     log-impl: org.apache.ibatis.logging.stdout.StdOutImpl
   type-aliases-package: com.example.demo.entity
   mapper-locations: classpath:mybatis/*.xml

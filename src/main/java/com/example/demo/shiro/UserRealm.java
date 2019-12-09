@@ -25,6 +25,7 @@ public class UserRealm extends AuthorizingRealm {
     @Autowired
     SysuserService sysuserService;
 
+
     @Override
     protected AuthorizationInfo doGetAuthorizationInfo(PrincipalCollection principalCollection) {
 
